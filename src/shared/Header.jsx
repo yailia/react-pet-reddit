@@ -1,12 +1,13 @@
-import { hot } from 'react-hot-loader/root'
-import React from 'react';
+import * as React from 'react';
+import {hot } from 'react-hot-loader/root';
+import styles from './header.css';
 
 function HeaderComponent() {
   return (
-    <header className="header">
-      <h1>Hello reactive world and welcome to me1wet23</h1>
-    </header>
-  )
-}
+    <div>
+      <h1 className={styles.example}>Hello React</h1>
+    </div>
+  );
+};
 
 export const Header = hot(HeaderComponent);
