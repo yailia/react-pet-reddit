@@ -29,7 +29,7 @@ export function Menu() {
     <div className={ styles.menu }>
       <Dropdown 
         button={
-          <button className={ styles.menuButton} onClick={() => isOpen(!open)}>
+          <button className={styles.menuButton} onClick={() => isOpen(!open)}>
             <MenuIcon />
           </button>
         }
@@ -37,7 +37,7 @@ export function Menu() {
       > 
         <div className={styles.dropdown}>
           <GenericList list={list} />
-          <button className={styles.closeButton}>Закрыть</button>
+          <button onClick={() => isOpen(!open)} className={styles.closeButton}>Закрыть</button>
         </div>
       </Dropdown>
     </div>
