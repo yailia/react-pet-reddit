@@ -1,6 +1,7 @@
 import React from 'react';
 import { generateId } from '../../../../utils/react/getRandomIndex';
 import { Dropdown } from '../../../Dropdown';
+import { MenuIcon } from '../../../Icons/MenuIcon';
 import { GenericList } from '../../GenericList';
 import styles from './menu.css';
 
@@ -29,18 +30,15 @@ export function Menu() {
       <Dropdown 
         button={
           <button className={ styles.menuButton} onClick={() => isOpen(!open)}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="5" height="20" viewBox="0 0 5 20" fill="none">
-              <circle cx="2.5" cy="2.5" r="2.5" fill="#D9D9D9"/>
-              <circle cx="2.5" cy="10" r="2.5" fill="#D9D9D9"/>
-              <circle cx="2.5" cy="17.5" r="2.5" fill="#D9D9D9"/>
-            </svg>
+            <MenuIcon />
           </button>
         }
         isOpen = {open}
-        onClose={() => console.log('closed')}
-        onOpen={() => console.log('opened')}
-      >
-        <GenericList list={list} />
+      > 
+        <div className={styles.dropdown}>
+          <GenericList list={list} />
+          <button className={styles.closeButton}>Закрыть</button>
+        </div>
       </Dropdown>
     </div>
   );
