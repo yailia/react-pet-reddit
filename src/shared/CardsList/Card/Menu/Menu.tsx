@@ -1,9 +1,11 @@
 import React from 'react';
+import { EIcon } from '../../../../enums/EIcon';
 import { generateId } from '../../../../utils/react/getRandomIndex';
 import { Dropdown } from '../../../Dropdown';
-import { MenuIcon } from '../../../Icons/MenuIcon';
+import { Icon } from '../../../Icon/Icon';
 import { GenericList } from '../../GenericList';
 import styles from './menu.css';
+
 
 const list = [
   {
@@ -30,10 +32,9 @@ export function Menu() {
       <Dropdown 
         button={
           <button className={styles.menuButton} onClick={() => isOpen(!open)}>
-            <MenuIcon />
+            <Icon name={EIcon.Menu} />
           </button>
         }
-        isOpen = {open}
       > 
         <div className={styles.dropdown}>
           <GenericList list={list} />
