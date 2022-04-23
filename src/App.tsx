@@ -6,6 +6,7 @@ import { Content } from "./shared/Content";
 import { Header } from "./shared/Header";
 import { Layout } from "./shared/Layout";
 
+
 function AppComponent() {
   return (
     <Layout>
@@ -17,4 +18,4 @@ function AppComponent() {
   )
 }
 
-export const App = hot(AppComponent);
+export const App = hot(() => <AppComponent />);

@@ -3,6 +3,7 @@
   top: 17px;
   right: 15px;
   padding: 0;
+  z-index: 200;
 }
 
 .menuButton {
@@ -25,6 +26,13 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.dropdown a {
+  padding: 0.5rem;
 }
 
 .closeButton {
@@ -50,6 +58,10 @@
     align-self: center;
     transform: unset;
   }
+
+  .closeButton {
+    display: none;
+  }
 }
 
 @media all and (min-width: 1540px) {
@@ -57,3 +69,4 @@
     background-color: rgba(51, 51, 51, 0.1);
   }
 }
+
