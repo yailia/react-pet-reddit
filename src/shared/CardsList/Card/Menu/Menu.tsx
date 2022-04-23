@@ -3,27 +3,11 @@ import { EIcon } from '../../../../enums/EIcon';
 import { generateId } from '../../../../utils/react/getRandomIndex';
 import { Dropdown } from '../../../Dropdown';
 import { Icon } from '../../../Icon/Icon';
-import { GenericList } from '../../GenericList';
+import { GenericList } from '../../../../utils/GenericList';
+import { Text } from '../../../Text';
+import { EColor } from '../../../../enums/EColor';
+import { MenuItemsList } from './MenuItemsList';
 import styles from './menu.css';
-
-
-const list = [
-  {
-    text: 'Комментарии',
-    className: 'menuItem',
-    href: '#comments'
-  },
-  {
-    text: 'Комментарии',
-    className: 'menuItem',
-    href: '#comments'
-  },
-  {
-    text: 'Комментарии',
-    className: 'menuItem',
-    href: '#comments'
-  }
-].map(generateId)
 
 export function Menu() {
   const [open, isOpen] = React.useState(false)
@@ -37,8 +21,12 @@ export function Menu() {
         }
       > 
         <div className={styles.dropdown}>
-          <GenericList list={list} />
-          <button onClick={() => isOpen(!open)} className={styles.closeButton}>Закрыть</button>
+          <MenuItemsList />
+          <button onClick={() => isOpen(!open)} className={styles.closeButton}>
+            <Text mobileSize={12} size={14} color={EColor.gray66}>
+              Закрыть
+            </Text> 
+          </button>
         </div>
       </Dropdown>
     </div>
