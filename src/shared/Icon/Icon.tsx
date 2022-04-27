@@ -3,6 +3,7 @@ import React from "react";
 import { EIcon } from "../../enums/EIcon";
 import styles from './Icon.css'
 import { MenuIcon } from "./Icons";
+import { AnonIcon } from "./Icons/AnonIcon";
 import { CommentsIcon } from "./Icons/CommentsIcon";
 import { ComplainIcon } from "./Icons/ComplainIcon";
 import { HideIcon } from "./Icons/HideIcon";
@@ -18,14 +19,26 @@ interface IIcon {
 
 export function Icon({ name, size }: IIcon) {
   return (
-    <div className={classNames({ [styles[`w${size}`]] : size })}>
+    size ? (
+      <div className={classNames({ [styles[`w${size}`]] : size })}>
+        {name === EIcon.Comment && <CommentsIcon />}
+        {name === EIcon.Complain && <ComplainIcon />}
+        {name === EIcon.Hide && <HideIcon />}
+        {name === EIcon.Menu && <MenuIcon />}
+        {name === EIcon.Save && <SaveIcon />}
+        {name === EIcon.Share && <ShareIcon />}
+        {name === EIcon.Anon && <AnonIcon />}
+      </div>
+    ) :
+    <>
       {name === EIcon.Comment && <CommentsIcon />}
       {name === EIcon.Complain && <ComplainIcon />}
       {name === EIcon.Hide && <HideIcon />}
       {name === EIcon.Menu && <MenuIcon />}
       {name === EIcon.Save && <SaveIcon />}
       {name === EIcon.Share && <ShareIcon />}
-    </div>
+      {name === EIcon.Anon && <AnonIcon />}
+    </>
     
   )
 }

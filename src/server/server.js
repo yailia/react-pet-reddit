@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
     indexTemplate(ReactDom.renderToString(App()))
   );
 });
+app.get('/auth', (req, res) => {
+  res.send(
+    indexTemplate(ReactDom.renderToString(App()))
+  );
+});
 
 app.listen(3000, () => {
   console.log('Server started on http://localhost:3000')

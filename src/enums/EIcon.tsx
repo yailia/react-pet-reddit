@@ -5,4 +5,5 @@ export enum EIcon {
   Menu,
   Save,
   Share,
+  Anon,
 }
