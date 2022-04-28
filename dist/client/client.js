@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "556f967689f9f7c758f9";
+/******/ 	var hotCurrentHash = "d5b8bf0ab99cb1beff33";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1095,6 +1095,17 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SearchBlock/UserBlock/userblock.css ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".userblock__userBox--24rEF {\\r\\n  cursor: pointer;\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.userblock__userBox--24rEF:hover span {\\r\\n  color: var(--orange);\\r\\n}\\r\\n.userblock__userBox--24rEF:hover .userblock__avatarBox--2OTfi {\\r\\n  box-shadow: 0 0 0 1px var(--orange);\\r\\n}\\r\\n\\r\\n.userblock__avatarBox--2OTfi {\\r\\n  width: 60px;\\r\\n  height: 60px;\\r\\n  padding: 5px;\\r\\n  border-radius: 100%;\\r\\n  box-shadow: none;\\r\\n  margin-right: 0.5rem;\\r\\n}\\r\\n\\r\\n.userblock__avatarImage--2ryXC {\\r\\n  width: 100%;\\r\\n  height: 100%;\\r\\n  object-fit: cover;\\r\\n  border-radius: 100%;\\r\\n}\\r\\n\\r\\n.userblock__username--3bLc0 {\\r\\n  display: none;\\r\\n}\\r\\n\\r\\n@media all and (min-width: 1024px) {\\r\\n  .userblock__username--3bLc0 {\\r\\n    display: flex;\\r\\n  }\\r\\n}\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"userBox\": \"userblock__userBox--24rEF\",\n\t\"avatarBox\": \"userblock__avatarBox--2OTfi\",\n\t\"avatarImage\": \"userblock__avatarImage--2ryXC\",\n\t\"username\": \"userblock__username--3bLc0\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/userblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css":
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SearchBlock/searchblock.css ***!
@@ -1682,7 +1693,7 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nex
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.EIcon = void 0;\r\nvar EIcon;\r\n(function (EIcon) {\r\n    EIcon[EIcon[\"Comment\"] = 0] = \"Comment\";\r\n    EIcon[EIcon[\"Complain\"] = 1] = \"Complain\";\r\n    EIcon[EIcon[\"Hide\"] = 2] = \"Hide\";\r\n    EIcon[EIcon[\"Menu\"] = 3] = \"Menu\";\r\n    EIcon[EIcon[\"Save\"] = 4] = \"Save\";\r\n    EIcon[EIcon[\"Share\"] = 5] = \"Share\";\r\n})(EIcon = exports.EIcon || (exports.EIcon = {}));\r\n\n\n//# sourceURL=webpack:///./src/enums/EIcon.tsx?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.EIcon = void 0;\r\nvar EIcon;\r\n(function (EIcon) {\r\n    EIcon[EIcon[\"Comment\"] = 0] = \"Comment\";\r\n    EIcon[EIcon[\"Complain\"] = 1] = \"Complain\";\r\n    EIcon[EIcon[\"Hide\"] = 2] = \"Hide\";\r\n    EIcon[EIcon[\"Menu\"] = 3] = \"Menu\";\r\n    EIcon[EIcon[\"Save\"] = 4] = \"Save\";\r\n    EIcon[EIcon[\"Share\"] = 5] = \"Share\";\r\n    EIcon[EIcon[\"Anon\"] = 6] = \"Anon\";\r\n})(EIcon = exports.EIcon || (exports.EIcon = {}));\r\n\n\n//# sourceURL=webpack:///./src/enums/EIcon.tsx?");
 
 /***/ }),
 
@@ -2242,7 +2253,42 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.SearchBlock = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar searchblock_css_1 = __importDefault(__webpack_require__(/*! ./searchblock.css */ \"./src/shared/Header/SearchBlock/searchblock.css\"));\r\nfunction SearchBlock() {\r\n    return (react_1.default.createElement(\"div\", { className: searchblock_css_1.default.searchBlock }, \"search block\"));\r\n}\r\nexports.SearchBlock = SearchBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/SearchBlock.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.SearchBlock = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar searchblock_css_1 = __importDefault(__webpack_require__(/*! ./searchblock.css */ \"./src/shared/Header/SearchBlock/searchblock.css\"));\r\nvar UserBlock_1 = __webpack_require__(/*! ./UserBlock */ \"./src/shared/Header/SearchBlock/UserBlock/index.ts\");\r\nfunction SearchBlock() {\r\n    return (react_1.default.createElement(\"div\", { className: searchblock_css_1.default.searchBlock },\r\n        react_1.default.createElement(UserBlock_1.UserBlock, null)));\r\n}\r\nexports.SearchBlock = SearchBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/SearchBlock.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx":
+/*!***************************************************************!*\
+  !*** ./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.UserBlock = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EColor_1 = __webpack_require__(/*! ../../../../enums/EColor */ \"./src/enums/EColor.tsx\");\r\nvar EIcon_1 = __webpack_require__(/*! ../../../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Icon_1 = __webpack_require__(/*! ../../../Icon */ \"./src/shared/Icon/index.ts\");\r\nvar Text_1 = __webpack_require__(/*! ../../../Text */ \"./src/shared/Text/index.ts\");\r\nvar userblock_css_1 = __importDefault(__webpack_require__(/*! ./userblock.css */ \"./src/shared/Header/SearchBlock/UserBlock/userblock.css\"));\r\nfunction UserBlock(props) {\r\n    return (react_1.default.createElement(\"a\", { target: \"_blank\", href: 'https://www.reddit.com/api/v1/authorize?client_id=5iOVxSKsbB4vl3F-STR1xQ&response_type=code&state=random_string&redirect_uri=http://localhost:3000/auth&duration=permanent&scope=read identity submit', className: userblock_css_1.default.userBox },\r\n        react_1.default.createElement(\"div\", { className: userblock_css_1.default.avatarBox }, props.avatarSrc ?\r\n            react_1.default.createElement(\"img\", { src: props.avatarSrc, alt: \"user avatar\", className: userblock_css_1.default.avatarImage }) :\r\n            react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Anon })),\r\n        react_1.default.createElement(\"div\", { className: userblock_css_1.default.username },\r\n            react_1.default.createElement(Text_1.Text, { size: 20, color: props.username ? EColor_1.EColor.black : EColor_1.EColor.gray99 }, props.username || \"Аноним\"))));\r\n}\r\nexports.UserBlock = UserBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Header/SearchBlock/UserBlock/index.ts":
+/*!**********************************************************!*\
+  !*** ./src/shared/Header/SearchBlock/UserBlock/index.ts ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./UserBlock */ \"./src/shared/Header/SearchBlock/UserBlock/UserBlock.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Header/SearchBlock/UserBlock/userblock.css":
+/*!***************************************************************!*\
+  !*** ./src/shared/Header/SearchBlock/UserBlock/userblock.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./userblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/UserBlock/userblock.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/UserBlock/userblock.css?");
 
 /***/ }),
 
@@ -2381,7 +2427,19 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Icon = void 0;\r\nvar classnames_1 = __importDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EIcon_1 = __webpack_require__(/*! ../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Icon_css_1 = __importDefault(__webpack_require__(/*! ./Icon.css */ \"./src/shared/Icon/Icon.css\"));\r\nvar Icons_1 = __webpack_require__(/*! ./Icons */ \"./src/shared/Icon/Icons/index.ts\");\r\nvar CommentsIcon_1 = __webpack_require__(/*! ./Icons/CommentsIcon */ \"./src/shared/Icon/Icons/CommentsIcon.tsx\");\r\nvar ComplainIcon_1 = __webpack_require__(/*! ./Icons/ComplainIcon */ \"./src/shared/Icon/Icons/ComplainIcon.tsx\");\r\nvar HideIcon_1 = __webpack_require__(/*! ./Icons/HideIcon */ \"./src/shared/Icon/Icons/HideIcon.tsx\");\r\nvar SaveIcon_1 = __webpack_require__(/*! ./Icons/SaveIcon */ \"./src/shared/Icon/Icons/SaveIcon.tsx\");\r\nvar ShareIcon_1 = __webpack_require__(/*! ./Icons/ShareIcon */ \"./src/shared/Icon/Icons/ShareIcon.tsx\");\r\nfunction Icon(_a) {\r\n    var _b;\r\n    var name = _a.name, size = _a.size;\r\n    return (react_1.default.createElement(\"div\", { className: (0, classnames_1.default)((_b = {}, _b[Icon_css_1.default[\"w\" + size]] = size, _b)) },\r\n        name === EIcon_1.EIcon.Comment && react_1.default.createElement(CommentsIcon_1.CommentsIcon, null),\r\n        name === EIcon_1.EIcon.Complain && react_1.default.createElement(ComplainIcon_1.ComplainIcon, null),\r\n        name === EIcon_1.EIcon.Hide && react_1.default.createElement(HideIcon_1.HideIcon, null),\r\n        name === EIcon_1.EIcon.Menu && react_1.default.createElement(Icons_1.MenuIcon, null),\r\n        name === EIcon_1.EIcon.Save && react_1.default.createElement(SaveIcon_1.SaveIcon, null),\r\n        name === EIcon_1.EIcon.Share && react_1.default.createElement(ShareIcon_1.ShareIcon, null)));\r\n}\r\nexports.Icon = Icon;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icon/Icon.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Icon = void 0;\r\nvar classnames_1 = __importDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EIcon_1 = __webpack_require__(/*! ../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Icon_css_1 = __importDefault(__webpack_require__(/*! ./Icon.css */ \"./src/shared/Icon/Icon.css\"));\r\nvar Icons_1 = __webpack_require__(/*! ./Icons */ \"./src/shared/Icon/Icons/index.ts\");\r\nvar AnonIcon_1 = __webpack_require__(/*! ./Icons/AnonIcon */ \"./src/shared/Icon/Icons/AnonIcon.tsx\");\r\nvar CommentsIcon_1 = __webpack_require__(/*! ./Icons/CommentsIcon */ \"./src/shared/Icon/Icons/CommentsIcon.tsx\");\r\nvar ComplainIcon_1 = __webpack_require__(/*! ./Icons/ComplainIcon */ \"./src/shared/Icon/Icons/ComplainIcon.tsx\");\r\nvar HideIcon_1 = __webpack_require__(/*! ./Icons/HideIcon */ \"./src/shared/Icon/Icons/HideIcon.tsx\");\r\nvar SaveIcon_1 = __webpack_require__(/*! ./Icons/SaveIcon */ \"./src/shared/Icon/Icons/SaveIcon.tsx\");\r\nvar ShareIcon_1 = __webpack_require__(/*! ./Icons/ShareIcon */ \"./src/shared/Icon/Icons/ShareIcon.tsx\");\r\nfunction Icon(_a) {\r\n    var _b;\r\n    var name = _a.name, size = _a.size;\r\n    return (size ? (react_1.default.createElement(\"div\", { className: (0, classnames_1.default)((_b = {}, _b[Icon_css_1.default[\"w\" + size]] = size, _b)) },\r\n        name === EIcon_1.EIcon.Comment && react_1.default.createElement(CommentsIcon_1.CommentsIcon, null),\r\n        name === EIcon_1.EIcon.Complain && react_1.default.createElement(ComplainIcon_1.ComplainIcon, null),\r\n        name === EIcon_1.EIcon.Hide && react_1.default.createElement(HideIcon_1.HideIcon, null),\r\n        name === EIcon_1.EIcon.Menu && react_1.default.createElement(Icons_1.MenuIcon, null),\r\n        name === EIcon_1.EIcon.Save && react_1.default.createElement(SaveIcon_1.SaveIcon, null),\r\n        name === EIcon_1.EIcon.Share && react_1.default.createElement(ShareIcon_1.ShareIcon, null),\r\n        name === EIcon_1.EIcon.Anon && react_1.default.createElement(AnonIcon_1.AnonIcon, null))) :\r\n        react_1.default.createElement(react_1.default.Fragment, null,\r\n            name === EIcon_1.EIcon.Comment && react_1.default.createElement(CommentsIcon_1.CommentsIcon, null),\r\n            name === EIcon_1.EIcon.Complain && react_1.default.createElement(ComplainIcon_1.ComplainIcon, null),\r\n            name === EIcon_1.EIcon.Hide && react_1.default.createElement(HideIcon_1.HideIcon, null),\r\n            name === EIcon_1.EIcon.Menu && react_1.default.createElement(Icons_1.MenuIcon, null),\r\n            name === EIcon_1.EIcon.Save && react_1.default.createElement(SaveIcon_1.SaveIcon, null),\r\n            name === EIcon_1.EIcon.Share && react_1.default.createElement(ShareIcon_1.ShareIcon, null),\r\n            name === EIcon_1.EIcon.Anon && react_1.default.createElement(AnonIcon_1.AnonIcon, null)));\r\n}\r\nexports.Icon = Icon;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icon/Icon.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Icon/Icons/AnonIcon.tsx":
+/*!********************************************!*\
+  !*** ./src/shared/Icon/Icons/AnonIcon.tsx ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.AnonIcon = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nfunction AnonIcon() {\r\n    return (react_1.default.createElement(\"svg\", { xmlns: \"http://www.w3.org/2000/svg\", width: \"50\", height: \"50\", viewBox: \"0 0 50 50\", fill: \"none\" },\r\n        react_1.default.createElement(\"path\", { d: \"M25 0C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 11.2 38.8 0 25 0ZM25 7.5C29.15 \\r\\n        7.5 32.5 10.85 32.5 15C32.5 19.15 29.15 22.5 25 22.5C20.85 22.5 17.5 19.15 17.5 15C17.5 10.85 20.85 7.5 25 7.5ZM25 \\r\\n        43C18.75 43 13.225 39.8 10 34.95C10.075 29.975 20 27.25 25 27.25C29.975 27.25 39.925 29.975 40 34.95C36.775 39.8 31.25 43 25 43Z\", fill: \"#D9D9D9\" })));\r\n}\r\nexports.AnonIcon = AnonIcon;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icon/Icons/AnonIcon.tsx?");
 
 /***/ }),
 
