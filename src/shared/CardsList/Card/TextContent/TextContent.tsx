@@ -3,17 +3,29 @@ import { Title } from './Title';
 import styles from './textcontent.css';
 import { UserLink } from './UserLink';
 
-export function TextContent() {
+interface ITextContentProps {
+  title: string;
+  url: string;
+  created: number;
+  author: string;
+  author_fullname: string;
+}
+
+export function TextContent(props: ITextContentProps) {
+  const postTime = new Date(props.created * 1000).toLocaleString();
   return (
     <div className={ styles.textContent }>
       <div className={ styles.metaData }>
-        <UserLink />
+        <UserLink author={props.author}/>
         <span className={ styles.createdAt }>
           <span className={ styles.publishedLabel }>Опубликовано</span>
-          4 часа назад
+          {postTime}
         </span>
       </div>
-      <Title />
+      <Title 
+        title={props.title}
+        url={props.url}
+      />
     </div>
   );
 }

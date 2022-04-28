@@ -5,11 +5,26 @@ import { Menu } from './Menu';
 import { Preview } from './Preview';
 import { TextContent } from './TextContent';
 
-export function Card() {
+interface ICardProps {
+  author: string;
+  author_fullname: string;
+  created: number;
+  title: string;
+  url: string;
+  thumbnail: string;
+}
+
+export function Card(props: ICardProps) {
   return (
     <li className={ styles.card }>
-      <TextContent />
-      <Preview />
+      <TextContent
+        author_fullname={props.author_fullname} 
+        author={props.author}
+        created={props.created}
+        title={props.title}
+        url={props.url}
+      />
+      <Preview thumbnail={props.thumbnail} title={props.title}/>
       <Menu />
       <Controls />
     </li>

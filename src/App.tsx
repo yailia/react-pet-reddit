@@ -1,20 +1,32 @@
 import React from "react";
 import { hot } from "react-hot-loader/root";
-import './main.global.css'
+import { useToken } from "./hooks/useToken";
 import { CardsList } from "./shared/CardsList";
 import { Content } from "./shared/Content";
+import { tokenContext } from "./shared/context/tokenContext";
 import { Header } from "./shared/Header";
 import { Layout } from "./shared/Layout";
+import './main.global.css'
+import { userContext, UserContextProvider } from "./shared/context/userContext";
+import { PostContextProvider } from "./shared/context/postContext";
 
 
 function AppComponent() {
+  const [token] = useToken();
+
   return (
-    <Layout>
-      <Header />
-      <Content>
-        <CardsList />
-      </Content>
-    </Layout>
+    <tokenContext.Provider value={token}>
+      <UserContextProvider>
+        <Layout>
+          <Header />
+          <Content>
+            <PostContextProvider>
+              <CardsList />
+            </PostContextProvider>
+          </Content>
+        </Layout>
+      </UserContextProvider>
+    </tokenContext.Provider>
   )
 }
 

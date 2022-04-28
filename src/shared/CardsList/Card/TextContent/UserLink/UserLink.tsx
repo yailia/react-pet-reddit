@@ -1,15 +1,26 @@
 import React from 'react';
+import { useUserAbout } from '../../../../../hooks/useUserAbout';
 import styles from './userlink.css';
 
-export function UserLink() {
+interface IUserLink {
+  author: string;
+}
+
+interface IAuthorData {
+  name: string;
+  snoovatar_img: string; 
+}
+
+export function UserLink(props: IUserLink) {
+  const [authorData]: any = useUserAbout(props.author)
   return (
     <div className={ styles.userLink }>
       <img
         className={styles.avatar}
-        src="https://cdn.dribbble.com/users/77241/avatars/mini/e3a0069803b02cfdb3cb9031ecd3b12e.jpg?1599151966" 
+        src={authorData.icon_img}
         alt="avatar"
       />
-      <a className={ styles.username } href="#user-url">Дмитрий Гришин</a>
+      <a className={ styles.username } href="#user-url">{authorData.name}</a>
     </div>
   );
 }

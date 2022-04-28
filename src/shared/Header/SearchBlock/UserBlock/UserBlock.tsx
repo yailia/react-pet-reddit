@@ -13,10 +13,9 @@ interface IUserBlockProps {
 export function UserBlock(props: IUserBlockProps) {
   return (
     <a
-      target="_blank"
       href='https://www.reddit.com/api/v1/authorize?client_id=5iOVxSKsbB4vl3F-STR1xQ&response_type=code&state=random_string&redirect_uri=http://localhost:3000/auth&duration=permanent&scope=read identity submit'
-      className={styles.userBox
-    }>
+      className={styles.userBox}
+    >
       <div className={styles.avatarBox}>
         { 
           props.avatarSrc ?
