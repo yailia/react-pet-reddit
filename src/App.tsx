@@ -7,7 +7,7 @@ import { tokenContext } from "./shared/context/tokenContext";
 import { Header } from "./shared/Header";
 import { Layout } from "./shared/Layout";
 import './main.global.css'
-import { userContext, UserContextProvider } from "./shared/context/userContext";
+import {  UserContextProvider } from "./shared/context/userContext";
 import { PostContextProvider } from "./shared/context/postContext";
 
 

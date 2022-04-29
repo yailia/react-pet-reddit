@@ -1,5 +1,6 @@
 import React, { createContext, ReactNode } from "react";
 import { usePostData } from "../../hooks/usePostData";
+import { Spinner } from "../Spinner";
 
 interface IPostContextProviderProps {
   children: ReactNode;
@@ -20,9 +21,10 @@ interface IPostData {
 export const postContext = createContext<IPostsData[]>([]);
 
 export function PostContextProvider (props: IPostContextProviderProps) {
-  const [data] = usePostData();
+  const [{postData, loading}] = usePostData();
   return (
-    <postContext.Provider value={data}>
+    <postContext.Provider value={postData}>
+      {loading && <Spinner />}
       {props.children}
     </postContext.Provider>
   )

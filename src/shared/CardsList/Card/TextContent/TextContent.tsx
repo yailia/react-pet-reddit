@@ -1,7 +1,9 @@
 import React from 'react';
 import { Title } from './Title';
-import styles from './textcontent.css';
 import { UserLink } from './UserLink';
+import { getTimePass } from '../../../../utils/react/getTimePass';
+import styles from './textcontent.css';
+import { hoursEnding } from '../../../../utils/react/hoursEnding';
 
 interface ITextContentProps {
   title: string;
@@ -12,14 +14,16 @@ interface ITextContentProps {
 }
 
 export function TextContent(props: ITextContentProps) {
-  const postTime = new Date(props.created * 1000).toLocaleString();
+  const time = getTimePass(props.created)
+
+  console.log(hoursEnding(time))
   return (
     <div className={ styles.textContent }>
       <div className={ styles.metaData }>
         <UserLink author={props.author}/>
         <span className={ styles.createdAt }>
           <span className={ styles.publishedLabel }>Опубликовано</span>
-          {postTime}
+          {`${time} ${time.toString().length <= 2 && hoursEnding(time)}`}
         </span>
       </div>
       <Title 

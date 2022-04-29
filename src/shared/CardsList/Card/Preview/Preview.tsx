@@ -11,7 +11,7 @@ export function Preview(props: IPreviewProps) {
     <div className={ styles.preview }>
       <img
         className={ styles.previewImg }
-        src={props.thumbnail}
+        src={props.thumbnail.includes('http') ? props.thumbnail : 'https://via.placeholder.com/190'}
         alt={props.title}/>
     </div>
   );

@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import React from "react";
 import { EIcon } from "../../enums/EIcon";
-import styles from './Icon.css'
 import { MenuIcon } from "./Icons";
 import { AnonIcon } from "./Icons/AnonIcon";
 import { CommentsIcon } from "./Icons/CommentsIcon";
@@ -9,6 +8,7 @@ import { ComplainIcon } from "./Icons/ComplainIcon";
 import { HideIcon } from "./Icons/HideIcon";
 import { SaveIcon } from "./Icons/SaveIcon";
 import { ShareIcon } from "./Icons/ShareIcon";
+import styles from './Icon.css'
 
 interface IIcon {
   name: EIcon;

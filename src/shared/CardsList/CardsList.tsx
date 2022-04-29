@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { generateId } from '../../utils/react/getRandomIndex';
 import { postContext } from '../context/postContext';
+import { Spinner } from '../Spinner';
 import { Card } from './Card';
 import styles from './cardslist.css';
 
@@ -8,12 +9,11 @@ import styles from './cardslist.css';
 
 export function CardsList() {
   const data = useContext(postContext).map(generateId);
-  console.log(data);
   return (
     <ul className={styles.cardsList}>
       {
         data.map(i => (
-          <Card 
+          <Card
             key={i.id}
             author={i.data.author}
             author_fullname={i.data.author_fullname}
