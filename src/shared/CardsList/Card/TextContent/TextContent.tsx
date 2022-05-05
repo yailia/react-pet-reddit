@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { Title } from './Title';
 import { UserLink } from './UserLink';
 import { getTimePass } from '../../../../utils/react/getTimePass';
@@ -11,12 +11,11 @@ interface ITextContentProps {
   created: number;
   author: string;
   author_fullname: string;
+  selftext?: ReactNode;
 }
 
 export function TextContent(props: ITextContentProps) {
   const time = getTimePass(props.created)
-
-  console.log(hoursEnding(time))
   return (
     <div className={ styles.textContent }>
       <div className={ styles.metaData }>
@@ -29,6 +28,7 @@ export function TextContent(props: ITextContentProps) {
       <Title 
         title={props.title}
         url={props.url}
+        selftext={props.selftext}
       />
     </div>
   );

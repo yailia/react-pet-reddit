@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import styles from './card.css';
 import { Controls } from './Controls';
 import { Menu } from './Menu';
@@ -12,6 +12,8 @@ interface ICardProps {
   title: string;
   url: string;
   thumbnail: string;
+  id?: string;
+  selftext?: ReactNode;
 }
 
 export function Card(props: ICardProps) {
@@ -23,6 +25,7 @@ export function Card(props: ICardProps) {
         created={props.created}
         title={props.title}
         url={props.url}
+        selftext={props.selftext}
       />
       <Preview thumbnail={props.thumbnail} title={props.title}/>
       <Menu />

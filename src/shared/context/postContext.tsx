@@ -16,6 +16,8 @@ interface IPostData {
   title: string;
   url: string;
   thumbnail: string;
+  id: string;
+  selftext: ReactNode;
 }
 
 export const postContext = createContext<IPostsData[]>([]);
