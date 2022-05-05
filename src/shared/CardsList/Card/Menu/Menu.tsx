@@ -11,11 +11,13 @@ export function Menu() {
   const [isOpen, setIsOpen] = React.useState(false)
   return (
     <div className={styles.menu}>
-      <button className={styles.menuButton} onClick={() => setIsOpen(!isOpen)}>
-        <Icon name={EIcon.Menu} />
-        <div id='dropdown-root'></div>
-      </button>
-      <Dropdown>
+      <Dropdown
+        button={
+        <button className={styles.menuButton} onClick={() => setIsOpen(!isOpen)}>
+          <Icon name={EIcon.Menu} />
+        </button>
+        }
+      >
         <div className={styles.dropdown}>
           <MenuItemsList />
           <button onClick={() => setIsOpen(!isOpen)} className={styles.closeButton}>
