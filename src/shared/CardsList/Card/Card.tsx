@@ -12,8 +12,9 @@ interface ICardProps {
   title: string;
   url: string;
   thumbnail: string;
-  id?: string;
+  id: string;
   selftext?: ReactNode;
+  subreddit: string;
 }
 
 export function Card(props: ICardProps) {
@@ -26,6 +27,8 @@ export function Card(props: ICardProps) {
         title={props.title}
         url={props.url}
         selftext={props.selftext}
+        id={props.id}
+        subreddit={props.subreddit}
       />
       <Preview thumbnail={props.thumbnail} title={props.title}/>
       <Menu />

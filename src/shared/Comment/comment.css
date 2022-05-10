@@ -1,0 +1,8 @@
+.comment {
+  display: grid;
+  grid-template-areas: 
+      "controls user-data"
+      "line content";
+  column-gap: 21px;
+  grid-template-columns: 17px auto;
+}

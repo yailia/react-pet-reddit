@@ -1,0 +1,30 @@
+.CommentBody {
+  flex-basis: 100%;
+  grid-area: content;
+}
+
+.commentText {
+  margin-bottom: 11px;
+}
+
+.commentBodyMenu{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.menuItem {
+  margin-right: 27px;
+  flex-flow: row nowrap;
+  position: relative;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.menuItem:last-child {
+  margin-right: 0;
+}
+
+.menuItem> div+span {
+  margin-left: 7px;
+}

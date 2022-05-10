@@ -2,10 +2,14 @@ import React, { ReactNode, useEffect, useRef } from 'react';
 import styles from './post.css';
 import ReactDOM from 'react-dom'
 import { CommentForm } from '../CommentForm';
+import { PostComments } from './PostComments';
+import { useCommentsTree } from '../../hooks/useCommentsTree';
 
 interface IPostProps {
   title: string;
   content?: ReactNode;
+  subreddit: string;
+  article: string;
   onClose?: () => void;
 }
 
@@ -34,6 +38,7 @@ export function Post(props: IPostProps) {
         {props.content}
       </div>
       <CommentForm />
+      <PostComments subreddit={props.subreddit} article={props.article}/>
     </div>
     ), node);
 }

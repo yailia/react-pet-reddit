@@ -15,7 +15,7 @@ export function useUserAbout (username: string) {
     })
       .then((r) => {
         setUserAbout(r.data.data);
-    })
+    });
   }, [])
   return [userAbout];
 }

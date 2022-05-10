@@ -18,6 +18,7 @@ interface IPostData {
   thumbnail: string;
   id: string;
   selftext: ReactNode;
+  subreddit: string;
 }
 
 export const postContext = createContext<IPostsData[]>([]);

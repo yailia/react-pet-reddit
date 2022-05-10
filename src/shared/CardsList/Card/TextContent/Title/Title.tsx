@@ -6,6 +6,8 @@ interface ITitleProps{
   title: string;
   url?: string;
   selftext?: ReactNode;
+  id: string;
+  subreddit: string;
 }
 
 export function Title(props: ITitleProps) {
@@ -22,7 +24,9 @@ export function Title(props: ITitleProps) {
       </h2>
       {
         isModalOpened && (
-          <Post 
+          <Post
+            article={props.id}
+            subreddit={props.subreddit}
             title={props.title}
             content={props.selftext} 
             onClose={() => {setIsModalOpened(false)}}

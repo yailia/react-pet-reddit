@@ -18,14 +18,13 @@ export function Dropdown({button, children, isOpen, onOpen = NOOP, onClose = NOO
   const node = document.querySelector('#dropdown-root');
   const ref = useRef<HTMLDivElement>(null)
   const rect = ref.current?.getBoundingClientRect();
-  const top = rect ? rect?.top + rect?.height : 0;
-  // const right = rect ? rect?.right + rect?.width / 2 : 0;
-  const position = {top: top , right: '12%'};
+  const top = rect ? rect.top + rect?.height : 0;
+  const right = rect ? rect.width * 4 : 0;
+  const position = {top: top , right: right};
   if(!node) return null;
 
   const handleOpen = () => {
     if(isOpen === undefined) {
-      console.log(ref.current?.getBoundingClientRect())
       setIsDropdownOpen(!isDropdownOpen)
     }
   }

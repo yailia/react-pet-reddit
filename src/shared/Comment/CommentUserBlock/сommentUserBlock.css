@@ -1,0 +1,29 @@
+.userData {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: user-data;
+  align-items: center;
+}
+
+.userAvatar {
+  margin-right: 7px;
+}
+
+.userName {
+  margin-right: 7px;
+  color: #CC6633;
+}
+
+.userCommentTime {
+  margin-right: 4px;
+}
+
+.avatar {
+  max-width: 1rem;
+}
+
+.userLeague {
+  background-color: #D9D9D9;
+  padding: 2px 12px;
+  color: #333333;
+}

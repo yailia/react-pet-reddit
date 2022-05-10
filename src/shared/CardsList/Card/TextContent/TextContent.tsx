@@ -12,6 +12,8 @@ interface ITextContentProps {
   author: string;
   author_fullname: string;
   selftext?: ReactNode;
+  id: string;
+  subreddit: string;
 }
 
 export function TextContent(props: ITextContentProps) {
@@ -25,7 +27,9 @@ export function TextContent(props: ITextContentProps) {
           {`${time} ${time.toString().length <= 2 && hoursEnding(time)}`}
         </span>
       </div>
-      <Title 
+      <Title
+        id={props.id}
+        subreddit={props.subreddit}
         title={props.title}
         url={props.url}
         selftext={props.selftext}

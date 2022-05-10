@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3d8cd437bc46620bf9c6";
+/******/ 	var hotCurrentHash = "5d45309be924c8c53212";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1350,7 +1350,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".menu__menu--22Yos {\\r\\n  position: absolute;\\r\\n  top: 17px;\\r\\n  right: 15px;\\r\\n  padding: 0;\\r\\n  z-index: 200;\\r\\n}\\r\\n\\r\\n.menu__menuButton--2RzAb {\\r\\n  width: 31px;\\r\\n  height: 31px;\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  justify-content: center;\\r\\n  transform: rotate(90deg);\\r\\n  border-radius: 31px;\\r\\n}\\r\\n.menu__menuButton--2RzAb:active {\\r\\n  background-color: rgba(51, 51, 51, 0.1);\\r\\n}\\r\\n\\r\\n.menu__dropdown--2v5tI {\\r\\n  position: absolute;\\r\\n  right: 0;\\r\\n  top: 10px;\\r\\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\\r\\n  border-radius: 3px;\\r\\n  background-color: var(--white);\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  \\r\\n}\\r\\n\\r\\n.menu__dropdown--2v5tI a {\\r\\n  padding: 0.5rem;\\r\\n}\\r\\n\\r\\n.menu__closeButton--1Vmbj {\\r\\n  background-color: var(--greyD9);\\r\\n  padding: 12px 23px;\\r\\n  border-radius: 0 0 3px 3px;\\r\\n  width: 100%;\\r\\n}\\r\\n\\r\\n@media all and (min-width: 1024px) {\\r\\n  .menu__menu--22Yos {\\r\\n    position: relative;\\r\\n    order: 2;\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n    flex: 0 0;\\r\\n    top: unset;\\r\\n    right: unset;\\r\\n    margin: 0 0 0 auto;\\r\\n  }\\r\\n\\r\\n  .menu__menuButton--2RzAb {\\r\\n    align-self: center;\\r\\n    transform: unset;\\r\\n  }\\r\\n\\r\\n  .menu__closeButton--1Vmbj {\\r\\n    display: none;\\r\\n  }\\r\\n}\\r\\n\\r\\n@media all and (min-width: 1540px) {\\r\\n  .menu__menuButton--2RzAb:hover {\\r\\n    background-color: rgba(51, 51, 51, 0.1);\\r\\n  }\\r\\n}\\r\\n\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"menu\": \"menu__menu--22Yos\",\n\t\"menuButton\": \"menu__menuButton--2RzAb\",\n\t\"dropdown\": \"menu__dropdown--2v5tI\",\n\t\"closeButton\": \"menu__closeButton--1Vmbj\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/menu.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".menu__menu--22Yos {\\r\\n  position: absolute;\\r\\n  top: 17px;\\r\\n  right: 15px;\\r\\n  padding: 0;\\r\\n  z-index: 200;\\r\\n}\\r\\n\\r\\n.menu__menuButton--2RzAb {\\r\\n  width: 31px;\\r\\n  height: 31px;\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  justify-content: center;\\r\\n  transform: rotate(90deg);\\r\\n  border-radius: 31px;\\r\\n  z-index: 300;\\r\\n}\\r\\n.menu__menuButton--2RzAb:active {\\r\\n  background-color: rgba(51, 51, 51, 0.1);\\r\\n}\\r\\n\\r\\n.menu__dropdown--2v5tI {\\r\\n  position: absolute;\\r\\n  right: 0;\\r\\n  top: 10px;\\r\\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);\\r\\n  border-radius: 3px;\\r\\n  background-color: var(--white);\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  \\r\\n}\\r\\n\\r\\n.menu__dropdown--2v5tI a {\\r\\n  padding: 0.5rem;\\r\\n}\\r\\n\\r\\n.menu__closeButton--1Vmbj {\\r\\n  background-color: var(--greyD9);\\r\\n  padding: 12px 23px;\\r\\n  border-radius: 0 0 3px 3px;\\r\\n  width: 100%;\\r\\n}\\r\\n\\r\\n@media all and (min-width: 1024px) {\\r\\n  .menu__menu--22Yos {\\r\\n    position: relative;\\r\\n    order: 2;\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n    flex: 0 0;\\r\\n    top: unset;\\r\\n    right: unset;\\r\\n    margin: 0 0 0 auto;\\r\\n  }\\r\\n\\r\\n  .menu__menuButton--2RzAb {\\r\\n    align-self: center;\\r\\n    transform: unset;\\r\\n  }\\r\\n\\r\\n  .menu__closeButton--1Vmbj {\\r\\n    display: none;\\r\\n  }\\r\\n}\\r\\n\\r\\n@media all and (min-width: 1540px) {\\r\\n  .menu__menuButton--2RzAb:hover {\\r\\n    background-color: rgba(51, 51, 51, 0.1);\\r\\n  }\\r\\n}\\r\\n\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"menu\": \"menu__menu--22Yos\",\n\t\"menuButton\": \"menu__menuButton--2RzAb\",\n\t\"dropdown\": \"menu__dropdown--2v5tI\",\n\t\"closeButton\": \"menu__closeButton--1Vmbj\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/menu.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1420,6 +1420,72 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".replycommentform__form--1eXQL {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.replycommentform__input--2x3G8 {\\r\\n  height: 89px;\\r\\n  border: 1px solid #D9D9D9;\\r\\n  padding: 16px;\\r\\n  box-sizing: border-box;\\r\\n  border-radius: 3px 3px 0px 0px;\\r\\n  font-family: Roboto;\\r\\n  font-style: normal;\\r\\n  font-weight: normal;\\r\\n  font-size: 16px;\\r\\n  line-height: 19px;\\r\\n  color: #999999;\\r\\n  resize: none;\\r\\n}\\r\\n\\r\\n.replycommentform__input--2x3G8[aria-invalid] {\\r\\n  border-color: red;\\r\\n}\\r\\n\\r\\n.replycommentform__button--18hcG {\\r\\n  width: 220px;\\r\\n  height: 50px;\\r\\n  background: #CC6633;\\r\\n  border-radius: 0px 0px 3px 0px;\\r\\n  align-self: flex-end;\\r\\n  font-family: Roboto;\\r\\n  font-style: normal;\\r\\n  font-weight: 500;\\r\\n  font-size: 14px;\\r\\n  line-height: 16px;\\r\\n  text-align: center;\\r\\n  color: #FFFFFF;\\r\\n}\\r\\n\\r\\n.replycommentform__button--18hcG:disabled {\\r\\n  opacity: 0.5;\\r\\n  cursor: default;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"form\": \"replycommentform__form--1eXQL\",\n\t\"input\": \"replycommentform__input--2x3G8\",\n\t\"button\": \"replycommentform__button--18hcG\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/commentbody.css":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Comment/CommentBody/commentbody.css ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".commentbody__CommentBody--pT5Bp {\\r\\n  flex-basis: 100%;\\r\\n  grid-area: content;\\r\\n}\\r\\n\\r\\n.commentbody__commentText--2wz8M {\\r\\n  margin-bottom: 11px;\\r\\n}\\r\\n\\r\\n.commentbody__commentBodyMenu--ssLBx{\\r\\n  display: flex;\\r\\n  margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\n.commentbody__menuItem--yGQ8x {\\r\\n  margin-right: 27px;\\r\\n  flex-flow: row nowrap;\\r\\n  position: relative;\\r\\n  align-items: center;\\r\\n  display: flex;\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\n.commentbody__menuItem--yGQ8x:last-child {\\r\\n  margin-right: 0;\\r\\n}\\r\\n\\r\\n.commentbody__menuItem--yGQ8x> div+span {\\r\\n  margin-left: 7px;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"CommentBody\": \"commentbody__CommentBody--pT5Bp\",\n\t\"commentText\": \"commentbody__commentText--2wz8M\",\n\t\"commentBodyMenu\": \"commentbody__commentBodyMenu--ssLBx\",\n\t\"menuItem\": \"commentbody__menuItem--yGQ8x\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/commentbody.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentControls/commentcontrols.css":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Comment/CommentControls/commentcontrols.css ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".commentcontrols__commentTreeControlBtns--Ie4L3 {\\r\\n  grid-area: controls;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.commentcontrols__commentTreeBtnHide--3RJOk {\\r\\n  margin-bottom: 10px;\\r\\n}\\r\\n\\r\\n.commentcontrols__commentTreeControlBlock--Y0cUW {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.commentcontrols__commentTreeControlLine--px_lZ {\\r\\n  grid-area: line;\\r\\n  justify-self: center;\\r\\n  height: 100%;\\r\\n  width: 3px;\\r\\n  background-color: #D9D9D9;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"commentTreeControlBtns\": \"commentcontrols__commentTreeControlBtns--Ie4L3\",\n\t\"commentTreeBtnHide\": \"commentcontrols__commentTreeBtnHide--3RJOk\",\n\t\"commentTreeControlBlock\": \"commentcontrols__commentTreeControlBlock--Y0cUW\",\n\t\"commentTreeControlLine\": \"commentcontrols__commentTreeControlLine--px_lZ\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentControls/commentcontrols.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentUserBlock/сommentUserBlock.css":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Comment/CommentUserBlock/сommentUserBlock.css ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".\\\\441ommentUserBlock__userData--1cV3l {\\r\\n  display: flex;\\r\\n  flex-wrap: wrap;\\r\\n  grid-area: user-data;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.\\\\441ommentUserBlock__userAvatar--1Qi2x {\\r\\n  margin-right: 7px;\\r\\n}\\r\\n\\r\\n.\\\\441ommentUserBlock__userName--1Qrie {\\r\\n  margin-right: 7px;\\r\\n  color: #CC6633;\\r\\n}\\r\\n\\r\\n.\\\\441ommentUserBlock__userCommentTime--1vFO- {\\r\\n  margin-right: 4px;\\r\\n}\\r\\n\\r\\n.\\\\441ommentUserBlock__avatar--1IwHD {\\r\\n  max-width: 1rem;\\r\\n}\\r\\n\\r\\n.\\\\441ommentUserBlock__userLeague--2xrre {\\r\\n  background-color: #D9D9D9;\\r\\n  padding: 2px 12px;\\r\\n  color: #333333;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"userData\": \"сommentUserBlock__userData--1cV3l\",\n\t\"userAvatar\": \"сommentUserBlock__userAvatar--1Qi2x\",\n\t\"userName\": \"сommentUserBlock__userName--1Qrie\",\n\t\"userCommentTime\": \"сommentUserBlock__userCommentTime--1vFO-\",\n\t\"avatar\": \"сommentUserBlock__avatar--1IwHD\",\n\t\"userLeague\": \"сommentUserBlock__userLeague--2xrre\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentUserBlock/%D1%81ommentUserBlock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/comment.css":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Comment/comment.css ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".comment__comment--2KbIt {\\r\\n  display: grid;\\r\\n  grid-template-areas: \\r\\n      \\\"controls user-data\\\"\\r\\n      \\\"line content\\\";\\r\\n  column-gap: 21px;\\r\\n  grid-template-columns: 17px auto;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"comment\": \"comment__comment--2KbIt\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Comment/comment.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/CommentForm/commentform.css":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/CommentForm/commentform.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".commentform__form--Cs1Oi {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.commentform__input--2fC-z {\\r\\n  height: 89px;\\r\\n  border: 1px solid #D9D9D9;\\r\\n  padding: 16px;\\r\\n  box-sizing: border-box;\\r\\n  border-radius: 3px 3px 0px 0px;\\r\\n  font-family: Roboto;\\r\\n  font-style: normal;\\r\\n  font-weight: normal;\\r\\n  font-size: 16px;\\r\\n  line-height: 19px;\\r\\n  color: #999999;\\r\\n  resize: none;\\r\\n}\\r\\n\\r\\n.commentform__input--2fC-z[aria-invalid] {\\r\\n  border-color: red;\\r\\n}\\r\\n\\r\\n.commentform__button--35eLT {\\r\\n  width: 220px;\\r\\n  height: 50px;\\r\\n  background: #CC6633;\\r\\n  border-radius: 0px 0px 3px 0px;\\r\\n  align-self: flex-end;\\r\\n  font-family: Roboto;\\r\\n  font-style: normal;\\r\\n  font-weight: 500;\\r\\n  font-size: 14px;\\r\\n  line-height: 16px;\\r\\n  text-align: center;\\r\\n  color: #FFFFFF;\\r\\n}\\r\\n\\r\\n.commentform__button--35eLT:disabled {\\r\\n  opacity: 0.5;\\r\\n  cursor: default;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"form\": \"commentform__form--Cs1Oi\",\n\t\"input\": \"commentform__input--2fC-z\",\n\t\"button\": \"commentform__button--35eLT\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CommentForm/commentform.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Content/content.css":
 /*!****************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Content/content.css ***!
@@ -1438,7 +1504,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".dropdown__container--a5Jzh {\\r\\n  width: 100%;\\r\\n  flex: 1 1 0%;\\r\\n}\\r\\n\\r\\n.dropdown__listContainer--YYYB3 {\\r\\n  position: relative;\\r\\n}\\r\\n\\r\\n.dropdown__list--23slg {\\r\\n  position: absolute;\\r\\n  left: 0;\\r\\n  top: 0;\\r\\n  width: 100%;\\r\\n  height: 100%;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"dropdown__container--a5Jzh\",\n\t\"listContainer\": \"dropdown__listContainer--YYYB3\",\n\t\"list\": \"dropdown__list--23slg\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/dropdown.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".dropdown__container--a5Jzh {\\r\\n  width: 100%;\\r\\n  flex: 1 1 0%;\\r\\n}\\r\\n\\r\\n.dropdown__listContainer--YYYB3 {\\r\\n  position: absolute;\\r\\n}\\r\\n\\r\\n.dropdown__list--23slg {\\r\\n  position: absolute;\\r\\n  left: 0;\\r\\n  top: 0;\\r\\n  width: 100%;\\r\\n  height: 100%;\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"dropdown__container--a5Jzh\",\n\t\"listContainer\": \"dropdown__listContainer--YYYB3\",\n\t\"list\": \"dropdown__list--23slg\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/dropdown.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1516,6 +1582,17 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".layout__layout--2fANc {\\r\\n  max-width: 1400px;\\r\\n  margin: 0 auto;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"layout\": \"layout__layout--2fANc\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Layout/layout.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Post/post.css":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Post/post.css ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".post__modal--yRo-c {\\r\\n  position: absolute;\\r\\n  left: 50%;\\r\\n  top: 10%;\\r\\n  transform: translateX(-50%);\\r\\n  z-index: 1000;\\r\\n  overflow-x: hidden;\\r\\n  overflow-y: auto;\\r\\n  background: #FFFFFF;\\r\\n  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);\\r\\n  border-radius: 7px;\\r\\n  min-height: 160px;\\r\\n  width: 80%;\\r\\n  padding: 24px;\\r\\n  margin-bottom: 25px;\\r\\n}\\r\\n\\r\\n.post__content--2gFMc {\\r\\n  overflow-y: auto;\\r\\n}\\r\\n\\r\\n.post__close--1HSqz {\\r\\n  align-self: flex-end;\\r\\n  width: 40px;\\r\\n  height: 40px;\\r\\n  margin: -24px;\\r\\n  color: #000\\r\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"modal\": \"post__modal--yRo-c\",\n\t\"content\": \"post__content--2gFMc\",\n\t\"close\": \"post__close--1HSqz\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Post/post.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1598,30 +1675,6 @@ eval("/** @license React v16.13.1\r\n * react-is.development.js\r\n *\r\n * Copy
 
 "use strict";
 eval("\r\nif (false) {}\r\nelse {\r\n    module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ \"./node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js\");\r\n}\r\n\n\n//# sourceURL=webpack:///./node_modules/hoist-non-react-statics/node_modules/react-is/index.js?");
-
-/***/ }),
-
-/***/ "./node_modules/nanoid/index.browser.js":
-/*!**********************************************!*\
-  !*** ./node_modules/nanoid/index.browser.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.random = exports.urlAlphabet = exports.customRandom = exports.customAlphabet = exports.nanoid = void 0;\r\nvar index_js_1 = __webpack_require__(/*! ./url-alphabet/index.js */ \"./node_modules/nanoid/url-alphabet/index.js\");\r\nObject.defineProperty(exports, \"urlAlphabet\", { enumerable: true, get: function () { return index_js_1.urlAlphabet; } });\r\nif (true) {\r\n    if (typeof navigator !== 'undefined' &&\r\n        navigator.product === 'ReactNative' &&\r\n        typeof crypto === 'undefined') {\r\n        throw new Error('React Native does not have a built-in secure random generator. ' +\r\n            'If you don’t need unpredictable IDs use `nanoid/non-secure`. ' +\r\n            'For secure IDs, import `react-native-get-random-values` ' +\r\n            'before Nano ID.');\r\n    }\r\n    if (typeof msCrypto !== 'undefined' && typeof crypto === 'undefined') {\r\n        throw new Error('Import file with `if (!window.crypto) window.crypto = window.msCrypto`' +\r\n            ' before importing Nano ID to fix IE 11 support');\r\n    }\r\n    if (typeof crypto === 'undefined') {\r\n        throw new Error('Your browser does not have secure random generator. ' +\r\n            'If you don’t need unpredictable IDs, you can use nanoid/non-secure.');\r\n    }\r\n}\r\nvar random = function (bytes) { return crypto.getRandomValues(new Uint8Array(bytes)); };\r\nexports.random = random;\r\nvar customRandom = function (alphabet, defaultSize, getRandom) {\r\n    var mask = (2 << (Math.log(alphabet.length - 1) / Math.LN2)) - 1;\r\n    var step = -~((1.6 * mask * defaultSize) / alphabet.length);\r\n    return function (size) {\r\n        if (size === void 0) { size = defaultSize; }\r\n        var id = '';\r\n        while (true) {\r\n            var bytes = getRandom(step);\r\n            var j = step;\r\n            while (j--) {\r\n                id += alphabet[bytes[j] & mask] || '';\r\n                if (id.length === size)\r\n                    return id;\r\n            }\r\n        }\r\n    };\r\n};\r\nexports.customRandom = customRandom;\r\nvar customAlphabet = function (alphabet, size) {\r\n    if (size === void 0) { size = 21; }\r\n    return customRandom(alphabet, size, random);\r\n};\r\nexports.customAlphabet = customAlphabet;\r\nvar nanoid = function (size) {\r\n    if (size === void 0) { size = 21; }\r\n    var id = '';\r\n    var bytes = crypto.getRandomValues(new Uint8Array(size));\r\n    while (size--) {\r\n        var byte = bytes[size] & 63;\r\n        if (byte < 36) {\r\n            id += byte.toString(36);\r\n        }\r\n        else if (byte < 62) {\r\n            id += (byte - 26).toString(36).toUpperCase();\r\n        }\r\n        else if (byte < 63) {\r\n            id += '_';\r\n        }\r\n        else {\r\n            id += '-';\r\n        }\r\n    }\r\n    return id;\r\n};\r\nexports.nanoid = nanoid;\r\n\n\n//# sourceURL=webpack:///./node_modules/nanoid/index.browser.js?");
-
-/***/ }),
-
-/***/ "./node_modules/nanoid/url-alphabet/index.js":
-/*!***************************************************!*\
-  !*** ./node_modules/nanoid/url-alphabet/index.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.urlAlphabet = void 0;\r\nvar urlAlphabet = 'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict';\r\nexports.urlAlphabet = urlAlphabet;\r\n\n\n//# sourceURL=webpack:///./node_modules/nanoid/url-alphabet/index.js?");
 
 /***/ }),
 
@@ -2051,7 +2104,7 @@ eval("\r\nmodule.exports = function (module) {\r\n    if (!module.webpackPolyfil
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\nvar useToken_1 = __webpack_require__(/*! ./hooks/useToken */ \"./src/hooks/useToken.ts\");\r\nvar CardsList_1 = __webpack_require__(/*! ./shared/CardsList */ \"./src/shared/CardsList/index.ts\");\r\nvar Content_1 = __webpack_require__(/*! ./shared/Content */ \"./src/shared/Content/index.ts\");\r\nvar tokenContext_1 = __webpack_require__(/*! ./shared/context/tokenContext */ \"./src/shared/context/tokenContext.ts\");\r\nvar Header_1 = __webpack_require__(/*! ./shared/Header */ \"./src/shared/Header/index.ts\");\r\nvar Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\r\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\r\nvar userContext_1 = __webpack_require__(/*! ./shared/context/userContext */ \"./src/shared/context/userContext.tsx\");\r\nvar postContext_1 = __webpack_require__(/*! ./shared/context/postContext */ \"./src/shared/context/postContext.tsx\");\r\nfunction AppComponent() {\r\n    var token = (0, useToken_1.useToken)()[0];\r\n    return (react_1.default.createElement(tokenContext_1.tokenContext.Provider, { value: token },\r\n        react_1.default.createElement(userContext_1.UserContextProvider, null,\r\n            react_1.default.createElement(Layout_1.Layout, null,\r\n                react_1.default.createElement(Header_1.Header, null),\r\n                react_1.default.createElement(Content_1.Content, null,\r\n                    react_1.default.createElement(postContext_1.PostContextProvider, null,\r\n                        react_1.default.createElement(CardsList_1.CardsList, null)))))));\r\n}\r\nexports.App = (0, root_1.hot)(function () { return react_1.default.createElement(AppComponent, null); });\r\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.App = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\r\nvar useToken_1 = __webpack_require__(/*! ./hooks/useToken */ \"./src/hooks/useToken.ts\");\r\nvar CardsList_1 = __webpack_require__(/*! ./shared/CardsList */ \"./src/shared/CardsList/index.ts\");\r\nvar Content_1 = __webpack_require__(/*! ./shared/Content */ \"./src/shared/Content/index.ts\");\r\nvar tokenContext_1 = __webpack_require__(/*! ./shared/context/tokenContext */ \"./src/shared/context/tokenContext.ts\");\r\nvar Header_1 = __webpack_require__(/*! ./shared/Header */ \"./src/shared/Header/index.ts\");\r\nvar Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\r\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\r\nvar userContext_1 = __webpack_require__(/*! ./shared/context/userContext */ \"./src/shared/context/userContext.tsx\");\r\nvar postContext_1 = __webpack_require__(/*! ./shared/context/postContext */ \"./src/shared/context/postContext.tsx\");\r\nvar commentContext_1 = __webpack_require__(/*! ./shared/context/commentContext */ \"./src/shared/context/commentContext.ts\");\r\nfunction AppComponent() {\r\n    var token = (0, useToken_1.useToken)()[0];\r\n    var CommentProvider = commentContext_1.commentContext.Provider;\r\n    var _a = (0, react_1.useState)(''), commentValue = _a[0], setCommentValue = _a[1];\r\n    return (react_1.default.createElement(CommentProvider, { value: { value: commentValue, onChange: setCommentValue } },\r\n        react_1.default.createElement(tokenContext_1.tokenContext.Provider, { value: token },\r\n            react_1.default.createElement(userContext_1.UserContextProvider, null,\r\n                react_1.default.createElement(Layout_1.Layout, null,\r\n                    react_1.default.createElement(Header_1.Header, null),\r\n                    react_1.default.createElement(Content_1.Content, null,\r\n                        react_1.default.createElement(postContext_1.PostContextProvider, null,\r\n                            react_1.default.createElement(CardsList_1.CardsList, null))))))));\r\n}\r\nexports.App = (0, root_1.hot)(function () { return react_1.default.createElement(AppComponent, null); });\r\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
 
 /***/ }),
 
@@ -2088,6 +2141,18 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nex
 
 "use strict";
 eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.EIcon = void 0;\r\nvar EIcon;\r\n(function (EIcon) {\r\n    EIcon[EIcon[\"Comment\"] = 0] = \"Comment\";\r\n    EIcon[EIcon[\"Complain\"] = 1] = \"Complain\";\r\n    EIcon[EIcon[\"Hide\"] = 2] = \"Hide\";\r\n    EIcon[EIcon[\"Menu\"] = 3] = \"Menu\";\r\n    EIcon[EIcon[\"Save\"] = 4] = \"Save\";\r\n    EIcon[EIcon[\"Share\"] = 5] = \"Share\";\r\n    EIcon[EIcon[\"Anon\"] = 6] = \"Anon\";\r\n})(EIcon = exports.EIcon || (exports.EIcon = {}));\r\n\n\n//# sourceURL=webpack:///./src/enums/EIcon.tsx?");
+
+/***/ }),
+
+/***/ "./src/hooks/useCommentsTree.ts":
+/*!**************************************!*\
+  !*** ./src/hooks/useCommentsTree.ts ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.useCommentsTree = void 0;\r\nvar axios_1 = __importDefault(__webpack_require__(/*! axios */ \"./node_modules/axios/index.js\"));\r\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nvar tokenContext_1 = __webpack_require__(/*! ../shared/context/tokenContext */ \"./src/shared/context/tokenContext.ts\");\r\nfunction useCommentsTree(subreddit, article) {\r\n    var _a = (0, react_1.useState)(), commentsTree = _a[0], setCommentsTree = _a[1];\r\n    var _b = (0, react_1.useState)(false), isLoading = _b[0], setIsLoading = _b[1];\r\n    var token = (0, react_1.useContext)(tokenContext_1.tokenContext);\r\n    try {\r\n        (0, react_1.useEffect)(function () {\r\n            setIsLoading(true);\r\n            axios_1.default.get(\"https://oauth.reddit.com/r/\" + subreddit + \"/comments/\" + article, {\r\n                headers: {\r\n                    'Authorization': \"Bearer \" + token,\r\n                    'Content-type': 'application/x-www-form-urlencoded',\r\n                }\r\n            })\r\n                .then(function (r) {\r\n                setCommentsTree(r === null || r === void 0 ? void 0 : r.data[1].data.children);\r\n            })\r\n                .finally(function () { return setIsLoading(false); });\r\n        }, []);\r\n    }\r\n    catch (e) {\r\n        console.log(e);\r\n    }\r\n    return [{ commentsTree: commentsTree, isLoading: isLoading }];\r\n}\r\nexports.useCommentsTree = useCommentsTree;\r\n\n\n//# sourceURL=webpack:///./src/hooks/useCommentsTree.ts?");
 
 /***/ }),
 
@@ -2158,7 +2223,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar card_css_1 = __importDefault(__webpack_require__(/*! ./card.css */ \"./src/shared/CardsList/Card/card.css\"));\r\nvar Controls_1 = __webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/index.ts\");\r\nvar Menu_1 = __webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar TextContent_1 = __webpack_require__(/*! ./TextContent */ \"./src/shared/CardsList/Card/TextContent/index.ts\");\r\nfunction Card(props) {\r\n    return (react_1.default.createElement(\"li\", { className: card_css_1.default.card },\r\n        react_1.default.createElement(TextContent_1.TextContent, { author_fullname: props.author_fullname, author: props.author, created: props.created, title: props.title, url: props.url }),\r\n        react_1.default.createElement(Preview_1.Preview, { thumbnail: props.thumbnail, title: props.title }),\r\n        react_1.default.createElement(Menu_1.Menu, null),\r\n        react_1.default.createElement(Controls_1.Controls, null)));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Card = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar card_css_1 = __importDefault(__webpack_require__(/*! ./card.css */ \"./src/shared/CardsList/Card/card.css\"));\r\nvar Controls_1 = __webpack_require__(/*! ./Controls */ \"./src/shared/CardsList/Card/Controls/index.ts\");\r\nvar Menu_1 = __webpack_require__(/*! ./Menu */ \"./src/shared/CardsList/Card/Menu/index.ts\");\r\nvar Preview_1 = __webpack_require__(/*! ./Preview */ \"./src/shared/CardsList/Card/Preview/index.ts\");\r\nvar TextContent_1 = __webpack_require__(/*! ./TextContent */ \"./src/shared/CardsList/Card/TextContent/index.ts\");\r\nfunction Card(props) {\r\n    return (react_1.default.createElement(\"li\", { className: card_css_1.default.card },\r\n        react_1.default.createElement(TextContent_1.TextContent, { author_fullname: props.author_fullname, author: props.author, created: props.created, title: props.title, url: props.url, selftext: props.selftext, id: props.id, subreddit: props.subreddit }),\r\n        react_1.default.createElement(Preview_1.Preview, { thumbnail: props.thumbnail, title: props.title }),\r\n        react_1.default.createElement(Menu_1.Menu, null),\r\n        react_1.default.createElement(Controls_1.Controls, null)));\r\n}\r\nexports.Card = Card;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Card.tsx?");
 
 /***/ }),
 
@@ -2345,7 +2410,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Menu = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EIcon_1 = __webpack_require__(/*! ../../../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Dropdown_1 = __webpack_require__(/*! ../../../Dropdown */ \"./src/shared/Dropdown/index.ts\");\r\nvar Icon_1 = __webpack_require__(/*! ../../../Icon/Icon */ \"./src/shared/Icon/Icon.tsx\");\r\nvar Text_1 = __webpack_require__(/*! ../../../Text */ \"./src/shared/Text/index.ts\");\r\nvar EColor_1 = __webpack_require__(/*! ../../../../enums/EColor */ \"./src/enums/EColor.tsx\");\r\nvar MenuItemsList_1 = __webpack_require__(/*! ./MenuItemsList */ \"./src/shared/CardsList/Card/Menu/MenuItemsList/index.ts\");\r\nvar menu_css_1 = __importDefault(__webpack_require__(/*! ./menu.css */ \"./src/shared/CardsList/Card/Menu/menu.css\"));\r\nfunction Menu() {\r\n    var _a = react_1.default.useState(false), open = _a[0], isOpen = _a[1];\r\n    return (react_1.default.createElement(\"div\", { className: menu_css_1.default.menu },\r\n        react_1.default.createElement(Dropdown_1.Dropdown, { button: react_1.default.createElement(\"button\", { className: menu_css_1.default.menuButton, onClick: function () { return isOpen(!open); } },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Menu })) },\r\n            react_1.default.createElement(\"div\", { className: menu_css_1.default.dropdown },\r\n                react_1.default.createElement(MenuItemsList_1.MenuItemsList, null),\r\n                react_1.default.createElement(\"button\", { onClick: function () { return isOpen(!open); }, className: menu_css_1.default.closeButton },\r\n                    react_1.default.createElement(Text_1.Text, { mobileSize: 12, size: 14, color: EColor_1.EColor.gray66 }, \"\\u0417\\u0430\\u043A\\u0440\\u044B\\u0442\\u044C\"))))));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/Menu.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Menu = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EIcon_1 = __webpack_require__(/*! ../../../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Dropdown_1 = __webpack_require__(/*! ../../../Dropdown */ \"./src/shared/Dropdown/index.ts\");\r\nvar Icon_1 = __webpack_require__(/*! ../../../Icon/Icon */ \"./src/shared/Icon/Icon.tsx\");\r\nvar Text_1 = __webpack_require__(/*! ../../../Text */ \"./src/shared/Text/index.ts\");\r\nvar EColor_1 = __webpack_require__(/*! ../../../../enums/EColor */ \"./src/enums/EColor.tsx\");\r\nvar MenuItemsList_1 = __webpack_require__(/*! ./MenuItemsList */ \"./src/shared/CardsList/Card/Menu/MenuItemsList/index.ts\");\r\nvar menu_css_1 = __importDefault(__webpack_require__(/*! ./menu.css */ \"./src/shared/CardsList/Card/Menu/menu.css\"));\r\nfunction Menu() {\r\n    var _a = react_1.default.useState(false), isOpen = _a[0], setIsOpen = _a[1];\r\n    return (react_1.default.createElement(\"div\", { className: menu_css_1.default.menu },\r\n        react_1.default.createElement(Dropdown_1.Dropdown, { button: react_1.default.createElement(\"button\", { className: menu_css_1.default.menuButton, onClick: function () { return setIsOpen(!isOpen); } },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Menu })) },\r\n            react_1.default.createElement(\"div\", { className: menu_css_1.default.dropdown },\r\n                react_1.default.createElement(MenuItemsList_1.MenuItemsList, null),\r\n                react_1.default.createElement(\"button\", { onClick: function () { return setIsOpen(!isOpen); }, className: menu_css_1.default.closeButton },\r\n                    react_1.default.createElement(Text_1.Text, { mobileSize: 12, size: 14, color: EColor_1.EColor.gray66 }, \"\\u0417\\u0430\\u043A\\u0440\\u044B\\u0442\\u044C\"))))));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/Menu/Menu.tsx?");
 
 /***/ }),
 
@@ -2450,7 +2515,7 @@ eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.TextContent = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/TextContent/Title/index.ts\");\r\nvar UserLink_1 = __webpack_require__(/*! ./UserLink */ \"./src/shared/CardsList/Card/TextContent/UserLink/index.ts\");\r\nvar getTimePass_1 = __webpack_require__(/*! ../../../../utils/react/getTimePass */ \"./src/utils/react/getTimePass.ts\");\r\nvar textcontent_css_1 = __importDefault(__webpack_require__(/*! ./textcontent.css */ \"./src/shared/CardsList/Card/TextContent/textcontent.css\"));\r\nvar hoursEnding_1 = __webpack_require__(/*! ../../../../utils/react/hoursEnding */ \"./src/utils/react/hoursEnding.ts\");\r\nfunction TextContent(props) {\r\n    var time = (0, getTimePass_1.getTimePass)(props.created);\r\n    console.log((0, hoursEnding_1.hoursEnding)(time));\r\n    return (react_1.default.createElement(\"div\", { className: textcontent_css_1.default.textContent },\r\n        react_1.default.createElement(\"div\", { className: textcontent_css_1.default.metaData },\r\n            react_1.default.createElement(UserLink_1.UserLink, { author: props.author }),\r\n            react_1.default.createElement(\"span\", { className: textcontent_css_1.default.createdAt },\r\n                react_1.default.createElement(\"span\", { className: textcontent_css_1.default.publishedLabel }, \"\\u041E\\u043F\\u0443\\u0431\\u043B\\u0438\\u043A\\u043E\\u0432\\u0430\\u043D\\u043E\"), time + \" \" + (time.toString().length <= 2 && (0, hoursEnding_1.hoursEnding)(time)))),\r\n        react_1.default.createElement(Title_1.Title, { title: props.title, url: props.url })));\r\n}\r\nexports.TextContent = TextContent;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/TextContent/TextContent.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.TextContent = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar Title_1 = __webpack_require__(/*! ./Title */ \"./src/shared/CardsList/Card/TextContent/Title/index.ts\");\r\nvar UserLink_1 = __webpack_require__(/*! ./UserLink */ \"./src/shared/CardsList/Card/TextContent/UserLink/index.ts\");\r\nvar getTimePass_1 = __webpack_require__(/*! ../../../../utils/react/getTimePass */ \"./src/utils/react/getTimePass.ts\");\r\nvar textcontent_css_1 = __importDefault(__webpack_require__(/*! ./textcontent.css */ \"./src/shared/CardsList/Card/TextContent/textcontent.css\"));\r\nvar hoursEnding_1 = __webpack_require__(/*! ../../../../utils/react/hoursEnding */ \"./src/utils/react/hoursEnding.ts\");\r\nfunction TextContent(props) {\r\n    var time = (0, getTimePass_1.getTimePass)(props.created);\r\n    return (react_1.default.createElement(\"div\", { className: textcontent_css_1.default.textContent },\r\n        react_1.default.createElement(\"div\", { className: textcontent_css_1.default.metaData },\r\n            react_1.default.createElement(UserLink_1.UserLink, { author: props.author }),\r\n            react_1.default.createElement(\"span\", { className: textcontent_css_1.default.createdAt },\r\n                react_1.default.createElement(\"span\", { className: textcontent_css_1.default.publishedLabel }, \"\\u041E\\u043F\\u0443\\u0431\\u043B\\u0438\\u043A\\u043E\\u0432\\u0430\\u043D\\u043E\"), time + \" \" + (time.toString().length <= 2 && (0, hoursEnding_1.hoursEnding)(time)))),\r\n        react_1.default.createElement(Title_1.Title, { id: props.id, subreddit: props.subreddit, title: props.title, url: props.url, selftext: props.selftext })));\r\n}\r\nexports.TextContent = TextContent;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/TextContent/TextContent.tsx?");
 
 /***/ }),
 
@@ -2462,7 +2527,7 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Title = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar title_css_1 = __importDefault(__webpack_require__(/*! ./title.css */ \"./src/shared/CardsList/Card/TextContent/Title/title.css\"));\r\nfunction Title(props) {\r\n    return (react_1.default.createElement(\"h2\", { className: title_css_1.default.title },\r\n        react_1.default.createElement(\"a\", { className: title_css_1.default.postLink, href: props.url }, props.title)));\r\n}\r\nexports.Title = Title;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/TextContent/Title/Title.tsx?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Title = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar Post_1 = __webpack_require__(/*! ../../../../Post */ \"./src/shared/Post/index.ts\");\r\nvar title_css_1 = __importDefault(__webpack_require__(/*! ./title.css */ \"./src/shared/CardsList/Card/TextContent/Title/title.css\"));\r\nfunction Title(props) {\r\n    var _a = (0, react_1.useState)(false), isModalOpened = _a[0], setIsModalOpened = _a[1];\r\n    return (react_1.default.createElement(react_1.default.Fragment, null,\r\n        react_1.default.createElement(\"h2\", { className: title_css_1.default.title },\r\n            react_1.default.createElement(\"a\", { className: title_css_1.default.postLink, onClick: function () { return setIsModalOpened(true); } }, props.title)),\r\n        isModalOpened && (react_1.default.createElement(Post_1.Post, { article: props.id, subreddit: props.subreddit, title: props.title, content: props.selftext, onClose: function () { setIsModalOpened(false); } }))));\r\n}\r\nexports.Title = Title;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/Card/TextContent/Title/Title.tsx?");
 
 /***/ }),
 
@@ -2578,7 +2643,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CardsList = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar getRandomIndex_1 = __webpack_require__(/*! ../../utils/react/getRandomIndex */ \"./src/utils/react/getRandomIndex.ts\");\r\nvar postContext_1 = __webpack_require__(/*! ../context/postContext */ \"./src/shared/context/postContext.tsx\");\r\nvar Card_1 = __webpack_require__(/*! ./Card */ \"./src/shared/CardsList/Card/index.ts\");\r\nvar cardslist_css_1 = __importDefault(__webpack_require__(/*! ./cardslist.css */ \"./src/shared/CardsList/cardslist.css\"));\r\nfunction CardsList() {\r\n    var data = (0, react_1.useContext)(postContext_1.postContext).map(getRandomIndex_1.generateId);\r\n    return (react_1.default.createElement(\"ul\", { className: cardslist_css_1.default.cardsList }, data.map(function (i) { return (react_1.default.createElement(Card_1.Card, { key: i.id, author: i.data.author, author_fullname: i.data.author_fullname, created: i.data.created, title: i.data.title, url: i.data.url, thumbnail: i.data.thumbnail })); })));\r\n}\r\nexports.CardsList = CardsList;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/CardsList.tsx?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CardsList = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar postContext_1 = __webpack_require__(/*! ../context/postContext */ \"./src/shared/context/postContext.tsx\");\r\nvar Card_1 = __webpack_require__(/*! ./Card */ \"./src/shared/CardsList/Card/index.ts\");\r\nvar cardslist_css_1 = __importDefault(__webpack_require__(/*! ./cardslist.css */ \"./src/shared/CardsList/cardslist.css\"));\r\nfunction CardsList() {\r\n    var data = (0, react_1.useContext)(postContext_1.postContext);\r\n    console.log(data);\r\n    return (react_1.default.createElement(\"ul\", { className: cardslist_css_1.default.cardsList }, data.map(function (i) {\r\n        return (react_1.default.createElement(Card_1.Card, { key: i.data.id, id: i.data.id, subreddit: i.data.subreddit, author: i.data.author, author_fullname: i.data.author_fullname, created: i.data.created, title: i.data.title, url: i.data.url, thumbnail: i.data.thumbnail, selftext: i.data.selftext }));\r\n    })));\r\n}\r\nexports.CardsList = CardsList;\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/CardsList.tsx?");
 
 /***/ }),
 
@@ -2602,6 +2667,216 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 "use strict";
 eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./CardsList */ \"./src/shared/CardsList/CardsList.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CardsList/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/Comment.tsx":
+/*!****************************************!*\
+  !*** ./src/shared/Comment/Comment.tsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Comment = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar CommentBody_1 = __webpack_require__(/*! ./CommentBody */ \"./src/shared/Comment/CommentBody/index.ts\");\r\nvar CommentControls_1 = __webpack_require__(/*! ./CommentControls */ \"./src/shared/Comment/CommentControls/index.ts\");\r\nvar CommentUserBlock_1 = __webpack_require__(/*! ./CommentUserBlock */ \"./src/shared/Comment/CommentUserBlock/index.ts\");\r\nvar comment_css_1 = __importDefault(__webpack_require__(/*! ./comment.css */ \"./src/shared/Comment/comment.css\"));\r\nfunction Comment(props) {\r\n    var _a = (0, react_1.useState)(false), isChildCommentOpen = _a[0], setIsChildCommentOpen = _a[1];\r\n    return (react_1.default.createElement(\"div\", { className: comment_css_1.default.comment },\r\n        react_1.default.createElement(CommentControls_1.CommentControls, { setIsOpen: setIsChildCommentOpen }),\r\n        react_1.default.createElement(CommentUserBlock_1.CommentUserBlock, { author_fullname: props.author, created: props.created, subreddit: props.subreddit }),\r\n        react_1.default.createElement(CommentBody_1.CommentBody, { author: props.author, body: props.body }, props.replies && props.replies.map(function (i) {\r\n            return (react_1.default.createElement(Comment, { key: i.data.id, author: i.data.author, body: i.data.body, created: i.data.created, parent_id: i.data.parent_id, score: i.data.score, subreddit: i.data.subreddit, id: i.data.id }));\r\n        }))));\r\n}\r\nexports.Comment = Comment;\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/Comment.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/CommentBody.tsx":
+/*!********************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/CommentBody.tsx ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CommentBody = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EColor_1 = __webpack_require__(/*! ../../../enums/EColor */ \"./src/enums/EColor.tsx\");\r\nvar EIcon_1 = __webpack_require__(/*! ../../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar Icon_1 = __webpack_require__(/*! ../../Icon */ \"./src/shared/Icon/index.ts\");\r\nvar Text_1 = __webpack_require__(/*! ../../Text */ \"./src/shared/Text/index.ts\");\r\nvar commentbody_css_1 = __importDefault(__webpack_require__(/*! ./commentbody.css */ \"./src/shared/Comment/CommentBody/commentbody.css\"));\r\nvar ReplyCommentForm_1 = __webpack_require__(/*! ./ReplyCommentForm */ \"./src/shared/Comment/CommentBody/ReplyCommentForm/index.ts\");\r\nfunction CommentBody(props) {\r\n    var _a = (0, react_1.useState)(false), isReplyOpen = _a[0], setIsReplyOpen = _a[1];\r\n    return (react_1.default.createElement(\"div\", { className: commentbody_css_1.default.CommentBody },\r\n        react_1.default.createElement(\"div\", { className: commentbody_css_1.default.commentText }, props.body),\r\n        react_1.default.createElement(\"ul\", { className: commentbody_css_1.default.commentBodyMenu },\r\n            react_1.default.createElement(\"li\", { className: commentbody_css_1.default.menuItem, onClick: function () { return setIsReplyOpen(!isReplyOpen); } },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Comment, size: 35 }),\r\n                react_1.default.createElement(Text_1.Text, { size: 12, color: EColor_1.EColor.gray99 }, \"\\u041E\\u0442\\u0432\\u0435\\u0442\\u0438\\u0442\\u044C\")),\r\n            react_1.default.createElement(\"li\", { className: commentbody_css_1.default.menuItem },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Share, size: 12 }),\r\n                react_1.default.createElement(Text_1.Text, { size: 12, color: EColor_1.EColor.gray99 }, \"\\u041F\\u043E\\u0434\\u0435\\u043B\\u0438\\u0442\\u044C\\u0441\\u044F\")),\r\n            react_1.default.createElement(\"li\", { className: commentbody_css_1.default.menuItem },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Hide, size: 12 }),\r\n                react_1.default.createElement(Text_1.Text, { size: 12, color: EColor_1.EColor.gray99 }, \"\\u041F\\u043E\\u0436\\u0430\\u043B\\u043E\\u0432\\u0430\\u0442\\u044C\\u0441\\u044F\"))),\r\n        isReplyOpen && react_1.default.createElement(ReplyCommentForm_1.ReplyCommentForm, { initialValue: props.author, isOpened: isReplyOpen }),\r\n        props.children));\r\n}\r\nexports.CommentBody = CommentBody;\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/CommentBody.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/ReplyCommentForm/ReplyCommentForm.tsx":
+/*!******************************************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/ReplyCommentForm/ReplyCommentForm.tsx ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ReplyCommentForm = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar replycommentform_css_1 = __importDefault(__webpack_require__(/*! ./replycommentform.css */ \"./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css\"));\r\nfunction ReplyCommentForm(props) {\r\n    var _a = (0, react_1.useState)(props.initialValue), value = _a[0], setValue = _a[1];\r\n    var ref = (0, react_1.useRef)(null);\r\n    (0, react_1.useEffect)(function () {\r\n        var _a;\r\n        (_a = ref.current) === null || _a === void 0 ? void 0 : _a.focus();\r\n    }, [props.isOpened]);\r\n    return (react_1.default.createElement(\"form\", { className: replycommentform_css_1.default.form, onSubmit: function (e) { return e.preventDefault(); } },\r\n        react_1.default.createElement(\"textarea\", { ref: ref, className: replycommentform_css_1.default.input, onChange: function (e) { return setValue(e.currentTarget.value); }, value: value }),\r\n        react_1.default.createElement(\"button\", { type: 'submit', className: replycommentform_css_1.default.button }, \"\\u041A\\u043E\\u043C\\u043C\\u0435\\u043D\\u0442\\u0438\\u0440\\u043E\\u0432\\u0430\\u0442\\u044C\")));\r\n}\r\nexports.ReplyCommentForm = ReplyCommentForm;\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/ReplyCommentForm/ReplyCommentForm.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/ReplyCommentForm/index.ts":
+/*!******************************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/ReplyCommentForm/index.ts ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./ReplyCommentForm */ \"./src/shared/Comment/CommentBody/ReplyCommentForm/ReplyCommentForm.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/ReplyCommentForm/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css":
+/*!******************************************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./replycommentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./replycommentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./replycommentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/ReplyCommentForm/replycommentform.css?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/commentbody.css":
+/*!********************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/commentbody.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentbody.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/commentbody.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentbody.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/commentbody.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentbody.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentBody/commentbody.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/commentbody.css?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentBody/index.ts":
+/*!*************************************************!*\
+  !*** ./src/shared/Comment/CommentBody/index.ts ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./CommentBody */ \"./src/shared/Comment/CommentBody/CommentBody.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentBody/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentControls/CommentControls.tsx":
+/*!****************************************************************!*\
+  !*** ./src/shared/Comment/CommentControls/CommentControls.tsx ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CommentControls = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar ArrowDown_1 = __webpack_require__(/*! ../../Icon/Icons/ArrowDown */ \"./src/shared/Icon/Icons/ArrowDown.tsx\");\r\nvar ArrowUp_1 = __webpack_require__(/*! ../../Icon/Icons/ArrowUp */ \"./src/shared/Icon/Icons/ArrowUp.tsx\");\r\nvar commentcontrols_css_1 = __importDefault(__webpack_require__(/*! ./commentcontrols.css */ \"./src/shared/Comment/CommentControls/commentcontrols.css\"));\r\nfunction CommentControls(props) {\r\n    return (react_1.default.createElement(react_1.default.Fragment, null,\r\n        react_1.default.createElement(\"div\", { className: \"commentTreeControl\" },\r\n            react_1.default.createElement(\"div\", { className: commentcontrols_css_1.default.commentTreeControlBtns },\r\n                react_1.default.createElement(\"button\", { className: commentcontrols_css_1.default.commentTreeBtnHide, onClick: function () { return props.setIsOpen(false); } },\r\n                    react_1.default.createElement(ArrowUp_1.ArrowUp, null)),\r\n                react_1.default.createElement(\"button\", { className: \"commentTreeBtnShow\", onClick: function () { return props.setIsOpen(true); } },\r\n                    react_1.default.createElement(ArrowDown_1.ArrowDown, null)))),\r\n        react_1.default.createElement(\"div\", { className: commentcontrols_css_1.default.commentTreeControlLine })));\r\n}\r\nexports.CommentControls = CommentControls;\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentControls/CommentControls.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentControls/commentcontrols.css":
+/*!****************************************************************!*\
+  !*** ./src/shared/Comment/CommentControls/commentcontrols.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentcontrols.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentControls/commentcontrols.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentcontrols.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentControls/commentcontrols.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentcontrols.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentControls/commentcontrols.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentControls/commentcontrols.css?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentControls/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/shared/Comment/CommentControls/index.ts ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./CommentControls */ \"./src/shared/Comment/CommentControls/CommentControls.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentControls/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentUserBlock/CommentUserBlock.tsx":
+/*!******************************************************************!*\
+  !*** ./src/shared/Comment/CommentUserBlock/CommentUserBlock.tsx ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CommentUserBlock = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar EIcon_1 = __webpack_require__(/*! ../../../enums/EIcon */ \"./src/enums/EIcon.tsx\");\r\nvar useUserAbout_1 = __webpack_require__(/*! ../../../hooks/useUserAbout */ \"./src/hooks/useUserAbout.ts\");\r\nvar getTimePass_1 = __webpack_require__(/*! ../../../utils/react/getTimePass */ \"./src/utils/react/getTimePass.ts\");\r\nvar hoursEnding_1 = __webpack_require__(/*! ../../../utils/react/hoursEnding */ \"./src/utils/react/hoursEnding.ts\");\r\nvar Icon_1 = __webpack_require__(/*! ../../Icon */ \"./src/shared/Icon/index.ts\");\r\nvar _ommentUserBlock_css_1 = __importDefault(__webpack_require__(/*! ./сommentUserBlock.css */ \"./src/shared/Comment/CommentUserBlock/сommentUserBlock.css\"));\r\nfunction CommentUserBlock(props) {\r\n    var time = (0, getTimePass_1.getTimePass)(props.created);\r\n    var authorData = (0, useUserAbout_1.useUserAbout)(props.author_fullname)[0];\r\n    return (react_1.default.createElement(\"div\", { className: _ommentUserBlock_css_1.default.userData },\r\n        react_1.default.createElement(\"span\", { className: _ommentUserBlock_css_1.default.userAvatar }, authorData.snoovatar_img ? (react_1.default.createElement(\"img\", { className: _ommentUserBlock_css_1.default.avatar, src: authorData.snoovatar_img, alt: \"avatar\" })) :\r\n            react_1.default.createElement(\"div\", { className: _ommentUserBlock_css_1.default.avatar },\r\n                react_1.default.createElement(Icon_1.Icon, { name: EIcon_1.EIcon.Anon, size: 16 }))),\r\n        react_1.default.createElement(\"span\", { className: _ommentUserBlock_css_1.default.userName }, authorData.name),\r\n        react_1.default.createElement(\"span\", { className: _ommentUserBlock_css_1.default.userCommentTime }, time + \" \" + (time.toString().length <= 2 && (0, hoursEnding_1.hoursEnding)(time))),\r\n        react_1.default.createElement(\"span\", { className: _ommentUserBlock_css_1.default.userLeague }, props.subreddit)));\r\n}\r\nexports.CommentUserBlock = CommentUserBlock;\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentUserBlock/CommentUserBlock.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentUserBlock/index.ts":
+/*!******************************************************!*\
+  !*** ./src/shared/Comment/CommentUserBlock/index.ts ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./CommentUserBlock */ \"./src/shared/Comment/CommentUserBlock/CommentUserBlock.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentUserBlock/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/CommentUserBlock/сommentUserBlock.css":
+/*!******************************************************************!*\
+  !*** ./src/shared/Comment/CommentUserBlock/сommentUserBlock.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./сommentUserBlock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentUserBlock/сommentUserBlock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./сommentUserBlock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentUserBlock/сommentUserBlock.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./сommentUserBlock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/CommentUserBlock/сommentUserBlock.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Comment/CommentUserBlock/%D1%81ommentUserBlock.css?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/comment.css":
+/*!****************************************!*\
+  !*** ./src/shared/Comment/comment.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./comment.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/comment.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./comment.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/comment.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./comment.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Comment/comment.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Comment/comment.css?");
+
+/***/ }),
+
+/***/ "./src/shared/Comment/index.ts":
+/*!*************************************!*\
+  !*** ./src/shared/Comment/index.ts ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Comment */ \"./src/shared/Comment/Comment.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Comment/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/CommentForm/CommentForm.tsx":
+/*!************************************************!*\
+  !*** ./src/shared/CommentForm/CommentForm.tsx ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.CommentForm = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar commentContext_1 = __webpack_require__(/*! ../context/commentContext */ \"./src/shared/context/commentContext.ts\");\r\nvar commentform_css_1 = __importDefault(__webpack_require__(/*! ./commentform.css */ \"./src/shared/CommentForm/commentform.css\"));\r\nfunction CommentForm() {\r\n    var _a = (0, react_1.useContext)(commentContext_1.commentContext), onChange = _a.onChange, value = _a.value;\r\n    function handleChange(e) {\r\n        onChange(e.target.value);\r\n    }\r\n    function submitHandle(e) {\r\n        e.preventDefault();\r\n    }\r\n    return (react_1.default.createElement(\"form\", { className: commentform_css_1.default.form, onSubmit: submitHandle },\r\n        react_1.default.createElement(\"textarea\", { className: commentform_css_1.default.input, onChange: handleChange, value: value }),\r\n        react_1.default.createElement(\"button\", { type: 'submit', className: commentform_css_1.default.button }, \"\\u041A\\u043E\\u043C\\u043C\\u0435\\u043D\\u0442\\u0438\\u0440\\u043E\\u0432\\u0430\\u0442\\u044C\")));\r\n}\r\nexports.CommentForm = CommentForm;\r\n\n\n//# sourceURL=webpack:///./src/shared/CommentForm/CommentForm.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/CommentForm/commentform.css":
+/*!************************************************!*\
+  !*** ./src/shared/CommentForm/commentform.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/CommentForm/commentform.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/CommentForm/commentform.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./commentform.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/CommentForm/commentform.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/CommentForm/commentform.css?");
+
+/***/ }),
+
+/***/ "./src/shared/CommentForm/index.ts":
+/*!*****************************************!*\
+  !*** ./src/shared/CommentForm/index.ts ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./CommentForm */ \"./src/shared/CommentForm/CommentForm.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/CommentForm/index.ts?");
 
 /***/ }),
 
@@ -2648,7 +2923,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Dropdown = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar dropdown_css_1 = __importDefault(__webpack_require__(/*! ./dropdown.css */ \"./src/shared/Dropdown/dropdown.css\"));\r\nvar NOOP = function () { };\r\nfunction Dropdown(_a) {\r\n    var button = _a.button, children = _a.children, isOpen = _a.isOpen, _b = _a.onOpen, onOpen = _b === void 0 ? NOOP : _b, _c = _a.onClose, onClose = _c === void 0 ? NOOP : _c;\r\n    var _d = react_1.default.useState(isOpen), isDropdownOpen = _d[0], setIsDropdownOpen = _d[1];\r\n    var handleOpen = function () {\r\n        if (isOpen === undefined) {\r\n            setIsDropdownOpen(!isDropdownOpen);\r\n        }\r\n    };\r\n    react_1.default.useEffect(function () { return setIsDropdownOpen(isOpen); }, [isOpen]);\r\n    react_1.default.useEffect(function () { return isDropdownOpen ? onOpen() : onClose(); });\r\n    return (react_1.default.createElement(\"div\", { className: dropdown_css_1.default.container },\r\n        react_1.default.createElement(\"div\", { onClick: handleOpen }, button),\r\n        isDropdownOpen && (react_1.default.createElement(\"div\", { className: dropdown_css_1.default.listContainer },\r\n            react_1.default.createElement(\"div\", { className: dropdown_css_1.default.list, onClick: function () { return setIsDropdownOpen(false); } }, children)))));\r\n}\r\nexports.Dropdown = Dropdown;\r\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/Dropdown.tsx?");
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Dropdown = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar dropdown_css_1 = __importDefault(__webpack_require__(/*! ./dropdown.css */ \"./src/shared/Dropdown/dropdown.css\"));\r\nvar react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ \"./node_modules/@hot-loader/react-dom/index.js\"));\r\nvar NOOP = function () { };\r\nfunction Dropdown(_a) {\r\n    var _b;\r\n    var button = _a.button, children = _a.children, isOpen = _a.isOpen, _c = _a.onOpen, onOpen = _c === void 0 ? NOOP : _c, _d = _a.onClose, onClose = _d === void 0 ? NOOP : _d;\r\n    var _e = react_1.default.useState(isOpen), isDropdownOpen = _e[0], setIsDropdownOpen = _e[1];\r\n    var node = document.querySelector('#dropdown-root');\r\n    var ref = (0, react_1.useRef)(null);\r\n    var rect = (_b = ref.current) === null || _b === void 0 ? void 0 : _b.getBoundingClientRect();\r\n    var top = rect ? rect.top + (rect === null || rect === void 0 ? void 0 : rect.height) : 0;\r\n    var right = rect ? rect.width * 4 : 0;\r\n    var position = { top: top, right: right };\r\n    if (!node)\r\n        return null;\r\n    var handleOpen = function () {\r\n        if (isOpen === undefined) {\r\n            setIsDropdownOpen(!isDropdownOpen);\r\n        }\r\n    };\r\n    react_1.default.useEffect(function () { return setIsDropdownOpen(isOpen); }, [isOpen]);\r\n    react_1.default.useEffect(function () { return isDropdownOpen ? onOpen() : onClose(); });\r\n    return (react_1.default.createElement(\"div\", { className: dropdown_css_1.default.container },\r\n        react_1.default.createElement(\"div\", { onClick: handleOpen, ref: ref }, button),\r\n        isDropdownOpen && (react_dom_1.default.createPortal((react_1.default.createElement(\"div\", { className: dropdown_css_1.default.listContainer, style: position },\r\n            react_1.default.createElement(\"div\", { className: dropdown_css_1.default.list, onClick: function () { return setIsDropdownOpen(false); } }, children))), node))));\r\n}\r\nexports.Dropdown = Dropdown;\r\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/Dropdown.tsx?");
 
 /***/ }),
 
@@ -2885,6 +3160,30 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 
 /***/ }),
 
+/***/ "./src/shared/Icon/Icons/ArrowDown.tsx":
+/*!*********************************************!*\
+  !*** ./src/shared/Icon/Icons/ArrowDown.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ArrowDown = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nfunction ArrowDown() {\r\n    return (react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n        react_1.default.createElement(\"path\", { d: \"M9.5 10L19 0L8.74228e-07 -1.66103e-06L9.5 10Z\", fill: \"#D9D9D9\" })));\r\n}\r\nexports.ArrowDown = ArrowDown;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icon/Icons/ArrowDown.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Icon/Icons/ArrowUp.tsx":
+/*!*******************************************!*\
+  !*** ./src/shared/Icon/Icons/ArrowUp.tsx ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.ArrowUp = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nfunction ArrowUp() {\r\n    return (react_1.default.createElement(\"svg\", { width: \"19\", height: \"10\", viewBox: \"0 0 19 10\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n        react_1.default.createElement(\"path\", { d: \"M9.5 0L0 10H19L9.5 0Z\", fill: \"#D9D9D9\" })));\r\n}\r\nexports.ArrowUp = ArrowUp;\r\n\n\n//# sourceURL=webpack:///./src/shared/Icon/Icons/ArrowUp.tsx?");
+
+/***/ }),
+
 /***/ "./src/shared/Icon/Icons/CommentsIcon.tsx":
 /*!************************************************!*\
   !*** ./src/shared/Icon/Icons/CommentsIcon.tsx ***!
@@ -3016,6 +3315,65 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
+/***/ "./src/shared/Post/Post.tsx":
+/*!**********************************!*\
+  !*** ./src/shared/Post/Post.tsx ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.Post = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar post_css_1 = __importDefault(__webpack_require__(/*! ./post.css */ \"./src/shared/Post/post.css\"));\r\nvar react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ \"./node_modules/@hot-loader/react-dom/index.js\"));\r\nvar CommentForm_1 = __webpack_require__(/*! ../CommentForm */ \"./src/shared/CommentForm/index.ts\");\r\nvar PostComments_1 = __webpack_require__(/*! ./PostComments */ \"./src/shared/Post/PostComments/index.ts\");\r\nfunction Post(props) {\r\n    var ref = (0, react_1.useRef)(null);\r\n    (0, react_1.useEffect)(function () {\r\n        function handleClick(e) {\r\n            var _a, _b;\r\n            if (e.target instanceof Node && !((_a = ref.current) === null || _a === void 0 ? void 0 : _a.contains(e.target))) {\r\n                (_b = props.onClose) === null || _b === void 0 ? void 0 : _b.call(props);\r\n            }\r\n        }\r\n        document.addEventListener('click', handleClick);\r\n        return function () {\r\n            document.removeEventListener('click', handleClick);\r\n        };\r\n    }, []);\r\n    var node = document.querySelector('#modal-root');\r\n    if (!node)\r\n        return null;\r\n    return react_dom_1.default.createPortal((react_1.default.createElement(\"div\", { className: post_css_1.default.modal, ref: ref },\r\n        react_1.default.createElement(\"h2\", null, props.title),\r\n        react_1.default.createElement(\"div\", { className: post_css_1.default.content }, props.content),\r\n        react_1.default.createElement(CommentForm_1.CommentForm, null),\r\n        react_1.default.createElement(PostComments_1.PostComments, { subreddit: props.subreddit, article: props.article }))), node);\r\n}\r\nexports.Post = Post;\r\n\n\n//# sourceURL=webpack:///./src/shared/Post/Post.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Post/PostComments/PostComments.tsx":
+/*!*******************************************************!*\
+  !*** ./src/shared/Post/PostComments/PostComments.tsx ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.PostComments = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar useCommentsTree_1 = __webpack_require__(/*! ../../../hooks/useCommentsTree */ \"./src/hooks/useCommentsTree.ts\");\r\nvar Comment_1 = __webpack_require__(/*! ../../Comment */ \"./src/shared/Comment/index.ts\");\r\nvar Spinner_1 = __webpack_require__(/*! ../../Spinner */ \"./src/shared/Spinner/index.ts\");\r\nfunction PostComments(props) {\r\n    var _a = (0, useCommentsTree_1.useCommentsTree)(props.subreddit, props.article)[0], commentsTree = _a.commentsTree, isLoading = _a.isLoading;\r\n    var isArray = Array.isArray(commentsTree);\r\n    return (react_1.default.createElement(react_1.default.Fragment, null,\r\n        isLoading && react_1.default.createElement(Spinner_1.Spinner, null),\r\n        isArray && commentsTree.map(function (i) {\r\n            var isReplies = i.data.replies ? i.data.replies.data.children : null;\r\n            return (react_1.default.createElement(Comment_1.Comment, { key: i.data.id, author: i.data.author, body: i.data.body, created: i.data.created, parent_id: i.data.parent_id, replies: isReplies, score: i.data.score, subreddit: i.data.subreddit, id: i.data.id }));\r\n        })));\r\n}\r\nexports.PostComments = PostComments;\r\n\n\n//# sourceURL=webpack:///./src/shared/Post/PostComments/PostComments.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Post/PostComments/index.ts":
+/*!***********************************************!*\
+  !*** ./src/shared/Post/PostComments/index.ts ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./PostComments */ \"./src/shared/Post/PostComments/PostComments.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Post/PostComments/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Post/index.ts":
+/*!**********************************!*\
+  !*** ./src/shared/Post/index.ts ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\r\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n__exportStar(__webpack_require__(/*! ./Post */ \"./src/shared/Post/Post.tsx\"), exports);\r\n\n\n//# sourceURL=webpack:///./src/shared/Post/index.ts?");
+
+/***/ }),
+
+/***/ "./src/shared/Post/post.css":
+/*!**********************************!*\
+  !*** ./src/shared/Post/post.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./post.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Post/post.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\nif (true) {\n  if (!content.locals) {\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./post.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Post/post.css\",\n      function () {\n        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./post.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Post/post.css\");\n\n              newContent = newContent.__esModule ? newContent.default : newContent;\n\n              if (typeof newContent === 'string') {\n                newContent = [[module.i, newContent, '']];\n              }\n\n              update(newContent);\n      }\n    )\n  }\n\n  module.hot.dispose(function() { \n    update();\n  });\n}\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/shared/Post/post.css?");
+
+/***/ }),
+
 /***/ "./src/shared/Spinner/Spinner.tsx":
 /*!****************************************!*\
   !*** ./src/shared/Spinner/Spinner.tsx ***!
@@ -3086,6 +3444,18 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
+/***/ "./src/shared/context/commentContext.ts":
+/*!**********************************************!*\
+  !*** ./src/shared/context/commentContext.ts ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.commentContext = void 0;\r\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\r\nexports.commentContext = (0, react_1.createContext)({ onChange: function () { }, value: '' });\r\n\n\n//# sourceURL=webpack:///./src/shared/context/commentContext.ts?");
+
+/***/ }),
+
 /***/ "./src/shared/context/postContext.tsx":
 /*!********************************************!*\
   !*** ./src/shared/context/postContext.tsx ***!
@@ -3119,30 +3489,6 @@ eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nex
 
 "use strict";
 eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.UserContextProvider = exports.userContext = void 0;\r\nvar react_1 = __importStar(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\r\nvar useUserData_1 = __webpack_require__(/*! ../../hooks/useUserData */ \"./src/hooks/useUserData.ts\");\r\nexports.userContext = (0, react_1.createContext)({});\r\nfunction UserContextProvider(_a) {\r\n    var children = _a.children;\r\n    var data = (0, useUserData_1.useUserData)()[0];\r\n    return (react_1.default.createElement(exports.userContext.Provider, { value: data }, children));\r\n}\r\nexports.UserContextProvider = UserContextProvider;\r\n\n\n//# sourceURL=webpack:///./src/shared/context/userContext.tsx?");
-
-/***/ }),
-
-/***/ "./src/utils/js/assoc.ts":
-/*!*******************************!*\
-  !*** ./src/utils/js/assoc.ts ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.assoc = void 0;\r\nfunction assoc(key, value) {\r\n    return function (obj) {\r\n        var _a;\r\n        return (__assign(__assign({}, obj), (_a = {}, _a[key] = value, _a)));\r\n    };\r\n}\r\nexports.assoc = assoc;\r\n\n\n//# sourceURL=webpack:///./src/utils/js/assoc.ts?");
-
-/***/ }),
-
-/***/ "./src/utils/react/getRandomIndex.ts":
-/*!*******************************************!*\
-  !*** ./src/utils/react/getRandomIndex.ts ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.generateId = exports.randomID = void 0;\r\nvar nanoid_1 = __webpack_require__(/*! nanoid */ \"./node_modules/nanoid/index.browser.js\");\r\nvar assoc_1 = __webpack_require__(/*! ../js/assoc */ \"./src/utils/js/assoc.ts\");\r\nvar randomID = function () { return (0, nanoid_1.nanoid)(); };\r\nexports.randomID = randomID;\r\nvar generateId = function (obj) { return (0, assoc_1.assoc)('id', (0, exports.randomID)())(obj); };\r\nexports.generateId = generateId;\r\n\n\n//# sourceURL=webpack:///./src/utils/react/getRandomIndex.ts?");
 
 /***/ }),
 

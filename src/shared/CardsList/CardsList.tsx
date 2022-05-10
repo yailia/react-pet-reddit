@@ -12,10 +12,11 @@ export function CardsList() {
     <ul className={styles.cardsList}>
       {
         data.map(i => {
-          console.log()
           return (
           <Card
             key={i.data.id}
+            id={i.data.id}
+            subreddit={i.data.subreddit}
             author={i.data.author}
             author_fullname={i.data.author_fullname}
             created={i.data.created}
