@@ -1,6 +1,7 @@
 import axios from "axios";
-import { useContext, useEffect, useState } from "react";
-import { tokenContext } from "../shared/context/tokenContext";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+import { TRootState } from "../store";
 
 interface ICommentsData {
   data: IComments[];
@@ -29,7 +30,7 @@ interface IRepliesDataProps {
 export function useCommentsTree (subreddit: string, article:string) {
   const [commentsTree, setCommentsTree] = useState<ICommentsData>();
   const [isLoading, setIsLoading] = useState(false)
-  const token = useContext(tokenContext)
+  const token = useSelector<TRootState, string>(state => state.token);
   try {
     useEffect(() => {
       setIsLoading(true)
@@ -44,7 +45,7 @@ export function useCommentsTree (subreddit: string, article:string) {
           setCommentsTree(r?.data[1].data.children)
         })
         .finally(()=> setIsLoading(false))
-      }, [])
+      }, [token])
     } catch(e) {
       console.log(e);
     }

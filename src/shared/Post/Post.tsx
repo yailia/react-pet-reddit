@@ -1,9 +1,8 @@
 import React, { ReactNode, useEffect, useRef } from 'react';
 import styles from './post.css';
 import ReactDOM from 'react-dom'
-import { CommentForm } from '../CommentForm';
 import { PostComments } from './PostComments';
-import { useCommentsTree } from '../../hooks/useCommentsTree';
+import { CommentFormContainer } from '../CommentFormContainer/CommentFormContainer';
 
 interface IPostProps {
   title: string;
@@ -37,7 +36,7 @@ export function Post(props: IPostProps) {
       <div className={styles.content}>
         {props.content}
       </div>
-      <CommentForm />
+      <CommentFormContainer />
       <PostComments subreddit={props.subreddit} article={props.article}/>
     </div>
     ), node);

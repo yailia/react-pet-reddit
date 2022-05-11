@@ -1,9 +1,10 @@
 import axios from "axios";
-import { useContext, useEffect, useState } from "react";
-import { tokenContext } from "../shared/context/tokenContext";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+import { TRootState } from "../store";
 
 export function usePostData () {
-  const token = useContext(tokenContext);
+  const token = useSelector<TRootState, string>(state => state.token);
   const [postData, setPostData] = useState([]);
   const [loading, setLoading] = useState(false)
 
@@ -22,7 +23,7 @@ export function usePostData () {
         setPostData(r?.data.data.children);
       })
       .finally(()=> setLoading(false))
-    }, [])
+    }, [token])
   }
   catch(e) {
     console.log(e)
