@@ -1,15 +1,28 @@
-import { Reducer } from "redux";
+import { Action, Reducer } from "redux";
 import { ActionCreator, AnyAction } from "redux";
+import { ThunkAction } from "redux-thunk/es/types";
+import { ME_REQUEST, ME_REQUEST_ERROR, ME_REQUEST_SUCCESS } from "./me/action";
+import { meReducer, TMeState } from "./me/reducer";
+
 
 
 export type TRootState = {
   commentText: string;
   token: string;
+  me: TMeState;
 }
 const initialState: TRootState = {
-  commentText: "Hello, world",
-  token: 'no-token'
+  commentText: '',
+  token: '',
+  me: {
+    loading: false,
+    error: '',
+    data:{}
+    
+  }
 };
+export type TThunkAction = ThunkAction<void, TRootState, unknown, Action<string>>;
+
 const UPDATE_COMMENT = 'UPDATE_COMMENT';
 const GET_TOKEN = 'GET_TOKEN'
 
@@ -23,7 +36,7 @@ export const getToken = (token: string) =>( {
   token
 })
 
-export const rootReducer: Reducer<TRootState> = (state = initialState, action) => {
+export const rootReducer: Reducer<TRootState, any> = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_COMMENT:
       return {
@@ -34,6 +47,13 @@ export const rootReducer: Reducer<TRootState> = (state = initialState, action) =
       return {
         ...state,
         token: action.token,
+      }
+    case ME_REQUEST:
+    case ME_REQUEST_SUCCESS:
+    case ME_REQUEST_ERROR:
+      return {
+        ...state,
+        me: meReducer(state.me, action)
       }
     default:
       return state;

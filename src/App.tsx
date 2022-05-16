@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import { Provider, useDispatch } from "react-redux";
 import { hot } from "react-hot-loader/root";
 import { CardsList } from "./shared/CardsList";
@@ -9,11 +9,14 @@ import { Layout } from "./shared/Layout";
 import { UserContextProvider } from "./shared/context/userContext";
 import { PostContextProvider } from "./shared/context/postContext";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { getToken, rootReducer } from "./store";
+import { getToken, rootReducer } from "./store/store";
 import './main.global.css'
+import thunk from "redux-thunk";
 
 
-const store = createStore(rootReducer, composeWithDevTools());
+const store = createStore(rootReducer, composeWithDevTools(
+  applyMiddleware(thunk)
+));
 
 
 function AppComponent() {

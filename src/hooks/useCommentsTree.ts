@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { TRootState } from "../store";
+import { TRootState } from "../store/store";
 
 interface ICommentsData {
   data: IComments[];
