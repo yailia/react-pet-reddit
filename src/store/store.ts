@@ -1,6 +1,6 @@
 import { Action, Reducer } from "redux";
 import { ActionCreator, AnyAction } from "redux";
-import { ThunkAction } from "redux-thunk/es/types";
+import { ThunkAction } from "redux-thunk";
 import { ME_REQUEST, ME_REQUEST_ERROR, ME_REQUEST_SUCCESS } from "./me/action";
 import { meReducer, TMeState } from "./me/reducer";
 
@@ -21,12 +21,11 @@ const initialState: TRootState = {
     
   }
 };
-export type TThunkAction = ThunkAction<void, TRootState, unknown, Action<string>>;
 
 const UPDATE_COMMENT = 'UPDATE_COMMENT';
 const GET_TOKEN = 'GET_TOKEN'
 
-export const updateComment: ActionCreator<AnyAction> = (text: string) => ({
+export const updateComment: ActionCreator<AnyAction extends Action> = (text: string) => ({
   type: UPDATE_COMMENT,
   text
 })

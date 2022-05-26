@@ -1,7 +1,7 @@
+import { AnyAction, ThunkAction } from "@reduxjs/toolkit";
 import axios from "axios";
-import { Action, ActionCreator, AnyAction } from "redux";
-import { ThunkAction } from "redux-thunk";
-import { TRootState, TThunkAction } from "../store";
+import { Action, ActionCreator } from "redux";
+import { TRootState } from "../store";
 
 export const ME_REQUEST = 'ME_REQUEST';
 export type TMeRequestAction = {
@@ -39,7 +39,7 @@ export const meRequestError: ActionCreator<TMeRequestErrorAction> = (error: stri
    }
 );
 
-export const meRequestAsync = (): TThunkAction => (dispatch, getState) => {
+export const meRequestAsync = (): ThunkAction<void, TRootState, unknown, AnyAction> => (dispatch, getState) => {
   dispatch(meRequest());
   axios.get('https://oauth.reddit.com/api/v1/me.json',
   {

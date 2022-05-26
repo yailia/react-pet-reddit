@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@redux-devtools/extension": "^3.2.2",
+    "@reduxjs/toolkit": "https://pkg.csb.dev/reduxjs/redux-toolkit/commit/933aa4a1/@reduxjs/toolkit",
     "@types/react": "^17.0.38",
     "axios": "^0.21.4",
     "classnames": "^2.3.1",
