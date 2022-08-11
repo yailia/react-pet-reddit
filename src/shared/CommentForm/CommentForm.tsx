@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FormEvent } from 'react';
 import styles from './commentform.css';
-import { SubmitHandler, UseFormHandleSubmit, UseFormRegister } from "react-hook-form";
+import { UseFormHandleSubmit, UseFormRegister } from "react-hook-form";
 
 
 export interface IForm {

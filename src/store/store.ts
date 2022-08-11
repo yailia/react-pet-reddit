@@ -31,8 +31,8 @@ export const updateComment: ActionCreator<AnyAction> = (text: string) => ({
 })
 
 export const getToken = (token: string) =>( {
-  type: 'GET_TOKEN',
-  token
+  type: GET_TOKEN,
+  token: token ? token : ''
 })
 
 export const rootReducer: Reducer<TRootState, any> = (state = initialState, action) => {

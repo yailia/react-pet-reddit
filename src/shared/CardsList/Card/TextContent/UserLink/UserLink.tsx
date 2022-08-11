@@ -8,12 +8,6 @@ interface IUserLink {
   author: string;
 }
 
-
-interface IAuthorData {
-  name: string;
-  snoovatar_img: string; 
-}
-
 export function UserLink(props: IUserLink) {
   const [authorData]: any = useUserAbout(props.author)
   return (
