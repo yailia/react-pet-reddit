@@ -1,6 +1,5 @@
 import React, { createContext, ReactNode, useEffect, useRef, useState } from "react";
 import { usePostData } from "../../hooks/usePostData";
-import { Spinner } from "../Spinner";
 
 interface IPostContextProviderProps {
   children: ReactNode;

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ReactNode, useCallback, useEffect, useState } from "react";
+import { ReactNode, useCallback, useState } from "react";
 import { useSelector } from "react-redux";
 import { TRootState } from "../store/store";
 
@@ -52,7 +52,7 @@ export function usePostData() {
         },
         params: {
           after: nextAfter,
-          limit: 10,
+          limit: 3,
         }
       }).then((r) => {
         setPostData(prev => prev.concat(r?.data.data.children));
@@ -61,7 +61,6 @@ export function usePostData() {
       }).catch(e => {
         setTextErr(`Ошибка при загрузке списка постов. Текст ошибки: ${e.message}`);
       }).finally(() => setLoading(false))
-    console.log("after", nextAfter)
   }, [token, nextAfter])
 
   return { postData, loading, textErr, getResponce, token, isReaded, isMore };

@@ -42,6 +42,7 @@
     "@redux-devtools/extension": "^3.2.2",
     "@reduxjs/toolkit": "https://pkg.csb.dev/reduxjs/redux-toolkit/commit/933aa4a1/@reduxjs/toolkit",
     "@types/react": "^17.0.38",
+    "@types/react-router-dom": "^5.3.3",
     "axios": "^0.21.4",
     "classnames": "^2.3.1",
     "cross-env": "^7.0.3",
@@ -51,6 +52,7 @@
     "react-dom": "^16.14.0",
     "react-hook-form": "^7.33.1",
     "react-redux": "^8.0.1",
+    "react-router-dom": "^6.4.1",
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.4.1"

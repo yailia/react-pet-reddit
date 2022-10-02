@@ -1,23 +1,28 @@
-import React, { ReactNode, useEffect, useRef } from 'react';
+import React, { ReactNode, useContext, useEffect, useMemo, useRef } from 'react';
 import styles from './post.css';
 import ReactDOM from 'react-dom'
 import { PostComments } from './PostComments';
 import { CommentFormContainer } from '../CommentFormContainer/CommentFormContainer';
+import { useNavigate, useParams } from 'react-router-dom';
+import { postContext } from '../context/postContext';
 
-interface IPostProps {
-  title: string;
-  content?: ReactNode;
-  subreddit: string;
-  article: string;
-  onClose?: () => void;
-}
-
-export function Post(props: IPostProps) {
+export function Post() {
+  const navigate = useNavigate();
   const ref = useRef<HTMLDivElement>(null);
+  const { id } = useParams();
+  const posts = useContext(postContext);
+  const post = useMemo(() => {
+    return posts.find(el => {
+      return el.data.id === id;
+    });
+  }, [id, posts])
+  
+  if (!post) return null;
+
   useEffect(() => {
     function handleClick (e: MouseEvent) {
       if (e.target instanceof Node && !ref.current?.contains(e.target)) {
-        props.onClose?.()
+        navigate("/")
       }
     }
     document.addEventListener('click', handleClick);
@@ -32,12 +37,12 @@ export function Post(props: IPostProps) {
   return ReactDOM.createPortal(
     (
     <div className={styles.modal} ref={ref}>
-      <h2>{props.title}</h2>
+      <h2>{post?.data.title}</h2>
       <div className={styles.content}>
-        {props.content}
+        {post.data.selftext}
       </div>
       <CommentFormContainer />
-      <PostComments subreddit={props.subreddit} article={props.article}/>
+      <PostComments subreddit={post.data.subreddit} article={post.data.id}/>
     </div>
     ), node);
 }

@@ -1,4 +1,5 @@
 import React, { ReactNode, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Post } from '../../../../Post';
 import styles from './title.css';
 
@@ -11,28 +12,13 @@ interface ITitleProps{
 }
 
 export function Title(props: ITitleProps) {
-   const [isModalOpened, setIsModalOpened] = useState(false);
   return (
-    <>
       <h2 className={ styles.title }>
-        <a 
+        <Link to={'/posts/' + props.id}
           className={ styles.postLink }
-          onClick={() => setIsModalOpened(true)}
         >
           {props.title} 
-        </a>
+        </Link>
       </h2>
-      {
-        isModalOpened && (
-          <Post
-            article={props.id}
-            subreddit={props.subreddit}
-            title={props.title}
-            content={props.selftext} 
-            onClose={() => {setIsModalOpened(false)}}
-          />
-        )
-      }
-  </>
   );
 }
